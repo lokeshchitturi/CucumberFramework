@@ -1,0 +1,55 @@
+Feature: Validating functionalities of OpenClinic
+[34mFinished scenario[0m
+
+  @login
+  Scenario: Login Validation                    [90m# featurefile/OpenClinic.feature:5[0m
+    [32mGiven [0m[32muser navigates to application[0m         [90m# OC_Login_StepDefinition.user_navigates_to_application()[0m
+    [32mAnd [0m[32muser enters valid username and password[0m [90m# OC_Login_StepDefinition.user_enters_valid_username_and_password()[0m
+    [32mAnd [0m[32muser clicks on login[0m                    [90m# OC_Login_StepDefinition.user_clicks_on_login()[0m
+    [32mThen [0m[32muser verifies the succesful login[0m      [90m# OC_Login_StepDefinition.user_verifies_the_succesful_login()[0m
+
+  @login
+  Scenario Outline: Searching subject                                              [90m# featurefile/OpenClinic.feature:30[0m
+    [36mGiven [0m[36muser logged into application[0m
+    [36mAnd [0m[36muser clicked on "<TabName>" link[0m
+    [36mAnd [0m[36muser searches for the subjectID "<SubjectIDValue>" in subject matrix table[0m
+    [36mAnd [0m[36muser opens the subject ID[0m
+
+    Examples: 
+[34mFinished scenario[0m
+
+  @login
+  Scenario Outline: Searching subject                                  [90m# featurefile/OpenClinic.feature:38[0m
+    [32mGiven [0m[32muser logged into application[0m                                 [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
+    [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" link[0m                          [90m# OC_Add_Subject_StepDefinition.user_clicked_on_link(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m1043[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser opens the subject ID[0m                                      [90m# OC_SubjectMatrix_StepDefinition.user_opens_the_subject_ID()[0m
+
+  @login
+  Scenario Outline: Searching Notes & Discrepancies                [90m# featurefile/OpenClinic.feature:41[0m
+    [36mGiven [0m[36muser logged into application[0m
+    [36mAnd [0m[36muser clicked on "<TabName>" link[0m
+    [36mAnd [0m[36muser displays the Notes table header fields in console[0m
+    [36mAnd [0m[36muser enters Filter "<filtername>" value as "<filtervalue>"[0m
+    [36mAnd [0m[36muser verifies the search result[0m
+
+    Examples: 
+[34mFinished scenario[0m
+
+  @login
+  Scenario Outline: Searching Notes & Discrepancies            [90m# featurefile/OpenClinic.feature:50[0m
+    [32mGiven [0m[32muser logged into application[0m                         [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
+    [32mAnd [0m[32muser clicked on "[0m[32m[1mNotes & Discrepancies[0m[32m" link[0m           [90m# OC_Add_Subject_StepDefinition.user_clicked_on_link(String)[0m
+    [32mAnd [0m[32muser displays the Notes table header fields in console[0m [90m# OC_NotesAndDiscrepancies_StepDefinition.user_displays_the_Notes_table_header_fields_in_console()[0m
+    [32mAnd [0m[32muser enters Filter "[0m[32m[1mSite ID[0m[32m" value as "[0m[32m[1mA[0m[32m"[0m              [90m# OC_NotesAndDiscrepancies_StepDefinition.user_enters_Filter_value_as(String,String)[0m
+    [31mAnd [0m[31muser verifies the search result[0m                        [90m# OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result()[0m
+      [31mjava.lang.Exception
+      	at cucumber.framework.PageObject.OC_NotesAndDiscrepanices.verifySearchResult(OC_NotesAndDiscrepanices.java:62)
+      	at com.cucumber.framework.stepDefinitions.OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result(OC_NotesAndDiscrepancies_StepDefinition.java:25)
+      	at ✽.And user verifies the search result(featurefile/OpenClinic.feature:46)
+      [0m
+[34mFinished scenario[0m
+
+  @login
+  Scenario: Closing the browser  [90m# featurefile/OpenClinic.feature:53[0m
+    [32mThen [0m[32muser closes the browser[0m [90m# OC_Login_StepDefinition.user_closes_the_browser()[0m

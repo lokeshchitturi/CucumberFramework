@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4691008751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Succesful naviation to webpage",
+        "description": "",
+        "id": "registration-form-testing;succesful-naviation-to-webpage",
+        "after": [
+          {
+            "result": {
+              "duration": 1110223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3203818313,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to the automation testing site",
+            "match": {
+              "location": "HomePage_StepDefinition.user_navigates_to_the_automation_testing_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11849959489,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid emailid",
+            "match": {
+              "location": "HomePage_StepDefinition.user_enters_valid_emailid()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14756627003,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "HomePage_StepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217333,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to registration form page",
+            "match": {
+              "location": "HomePage_StepDefinition.user_navigates_to_registration_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Hello"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Form Testing",
+    "description": "",
+    "id": "registration-form-testing",
+    "keyword": "Feature",
+    "uri": "featurefile/Sample.feature"
+  }
+]
