@@ -5,6 +5,7 @@ import org.testng.annotations.AfterSuite;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.framework.PageObject.OC_Login_PageObject;
+import cucumber.framework.PageObject.OC_SubjectMatrix_PageObject;
 import cucumber.framework.helper.TestBase;
 
 public class OC_Login_StepDefinition {
@@ -34,7 +35,10 @@ public class OC_Login_StepDefinition {
 	public void user_verifies_the_succesful_login() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	  if(!OC_Login_PageObject.verifyLogin())
-		  throw new Exception();
+	  {  
+		  throw new Exception("Login unsucessful");
+	  }
+		  
 	}
 	
 	@Then("^user closes the browser$")

@@ -76,6 +76,7 @@ public class OC_Login_PageObject extends WebDriverUtility{
 		boolean flag=false;
 		try {
 			WebElement ele=getWebElement(loginSuccesMsg);
+			System.out.println(ele.getText());
 			WaitHelper.getFluentWait(20, 5).until(ExpectedConditions.elementToBeClickable(ele));
 			flag=VerificationHelper.isElementPresent(ele);
 			

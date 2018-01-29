@@ -33,8 +33,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
 		<!-- report name -->
@@ -47,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 17, 2018 10:51:12 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 29, 2018 09:12:14 AM</span>
 				</a>
 			</li>
 			<li>
@@ -73,7 +72,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -124,10 +122,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>3</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -139,10 +137,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='82.353%'><span class='strong'>14</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>41</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='17.647%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -160,14 +158,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Validation</span>
-						<span class='test-time'>Jan 17, 2018 10:51:13 PM</span>
+						<span class='test-time'>Jan 29, 2018 09:12:14 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 17, 2018 10:51:13 PM</span>
-	<span class='label end-time'>Jan 17, 2018 10:51:20 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+593ms</span>
+	<span class='label start-time'>Jan 29, 2018 09:12:14 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:23 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+861ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -181,36 +179,36 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:18 PM</td>
+					<td class='timestamp'>9:12:21 AM</td>
 					<td class='step-details'>Succesfully navigated to URL</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:19 PM</td>
+					<td class='timestamp'>9:12:21 AM</td>
 					<td class='step-details'>username and password entered</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:20 PM</td>
+					<td class='timestamp'>9:12:22 AM</td>
 					<td class='step-details'>Clicked on login button</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:20 PM</td>
+					<td class='timestamp'>9:12:23 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:20 PM</td>
+					<td class='timestamp'>9:12:23 AM</td>
 					<td class='step-details'>Login Validation is passed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\homepage.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\homepage.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\homepage.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\homepage.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\homepage.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\homepage.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\CredentialsEentered.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\CredentialsEentered.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\CredentialsEentered.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
 							</ul>
 					</div>
 				</li>
@@ -218,15 +216,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>Searching subject</span>
-						<span class='test-time'>Jan 17, 2018 10:51:21 PM</span>
+						<span class='test-name'>Adding a subject to the study via link</span>
+						<span class='test-time'>Jan 29, 2018 09:12:23 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 17, 2018 10:51:21 PM</span>
-	<span class='label end-time'>Jan 17, 2018 10:51:24 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+60ms</span>
+	<span class='label start-time'>Jan 29, 2018 09:12:23 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:27 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+235ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -240,158 +238,128 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:21 PM</td>
+					<td class='timestamp'>9:12:23 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:22 PM</td>
+					<td class='timestamp'>9:12:24 AM</td>
 					<td class='step-details'>Clicked on Subject Matrix</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:22 PM</td>
+					<td class='timestamp'>9:12:24 AM</td>
+					<td class='step-details'>Clicked on add subject link</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:24 AM</td>
+					<td class='step-details'>Entered subject id in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Entered person id in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Entered enrolled date in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Selected gender in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Entered dob in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Selected study event in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:25 AM</td>
+					<td class='step-details'>Selected start date in 'Add Subject form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:26 AM</td>
+					<td class='step-details'>Clicked on add button in 'Add Subject Form'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:26 AM</td>
+					<td class='step-details'>Subject is added sucesfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:27 AM</td>
+					<td class='step-details'>Adding a subject to the study via link is passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\SucessFulAddedSubject.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\SucessFulAddedSubject.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\SucessFulAddedSubject.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Searching subject</span>
+						<span class='test-time'>Jan 29, 2018 09:12:27 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 29, 2018 09:12:27 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:31 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+159ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:27 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:27 AM</td>
+					<td class='step-details'>Clicked on Subject Matrix</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:28 AM</td>
 					<td class='step-details'>Table cotains some records releated to search</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:23 PM</td>
-					<td class='step-details'>Able to opne the subject</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:24 PM</td>
+					<td class='timestamp'>9:12:31 AM</td>
 					<td class='step-details'>Searching subject is passed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\Sample.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\SubjectScreenshot.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\SubjectScreenshot.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\SubjectScreenshot.jpg'></li>
-							</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>Searching Notes & Discrepancies</span>
-						<span class='test-time'>Jan 17, 2018 10:51:24 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 17, 2018 10:51:24 PM</span>
-	<span class='label end-time'>Jan 17, 2018 10:51:29 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+142ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:24 PM</td>
-					<td class='step-details'>Login sucessfull</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:25 PM</td>
-					<td class='step-details'>Clicked on Notes & Discrepancies</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:25 PM</td>
-					<td class='step-details'>Able to display header values in console</td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>10:51:28 PM</td>
-					<td class='step-details'>No search results found</td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>10:51:28 PM</td>
-					<td class='step-details'><pre>java.lang.Exception
-	at cucumber.framework.PageObject.OC_NotesAndDiscrepanices.verifySearchResult(OC_NotesAndDiscrepanices.java:62)
-	at com.cucumber.framework.stepDefinitions.OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result(OC_NotesAndDiscrepancies_StepDefinition.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-</pre></td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>10:51:29 PM</td>
-					<td class='step-details'>Searching Notes & Discrepancies is failed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\VerifiedSucesfullLogin.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-17-2018\CredentialsEentered.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg'></li>
 							</ul>
 					</div>
 				</li>
@@ -399,15 +367,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>Closing the browser</span>
-						<span class='test-time'>Jan 17, 2018 10:51:29 PM</span>
+						<span class='test-name'>Scheduling the event</span>
+						<span class='test-time'>Jan 29, 2018 09:12:31 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 17, 2018 10:51:29 PM</span>
-	<span class='label end-time'>Jan 17, 2018 10:51:31 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+323ms</span>
+	<span class='label start-time'>Jan 29, 2018 09:12:31 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:36 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+439ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -421,12 +389,237 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:51:31 PM</td>
-					<td class='step-details'>Closing the browser is passed</td>
+					<td class='timestamp'>9:12:31 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:32 AM</td>
+					<td class='step-details'>Clicked on Subject Matrix</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:32 AM</td>
+					<td class='step-details'>Table cotains some records releated to search</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:36 AM</td>
+					<td class='step-details'>Clicked on proceed to enter data button</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:36 AM</td>
+					<td class='step-details'>Scheduling the event is passed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Fill the "Form" form for the event</span>
+						<span class='test-time'>Jan 29, 2018 09:12:36 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 29, 2018 09:12:36 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:42 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+37ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:37 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:37 AM</td>
+					<td class='step-details'>Clicked on Subject Matrix</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:37 AM</td>
+					<td class='step-details'>Table cotains some records releated to search</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:42 AM</td>
+					<td class='step-details'>Fill the "Form" form for the event is passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>Fill the "Form" form for the event</span>
+						<span class='test-time'>Jan 29, 2018 09:12:43 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 29, 2018 09:12:43 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:48 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+428ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:43 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:43 AM</td>
+					<td class='step-details'>Clicked on Subject Matrix</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:44 AM</td>
+					<td class='step-details'>Table cotains some records releated to search</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:48 AM</td>
+					<td class='step-details'>Fill the "Form" form for the event is passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>Fill the "DoctorPrescription" form for the event</span>
+						<span class='test-time'>Jan 29, 2018 09:12:48 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 29, 2018 09:12:48 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:53 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+458ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:48 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:49 AM</td>
+					<td class='step-details'>Clicked on Subject Matrix</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:49 AM</td>
+					<td class='step-details'>Table cotains some records releated to search</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:53 AM</td>
+					<td class='step-details'>Fill the "DoctorPrescription" form for the event is passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\Sample.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>Create and view a dataset</span>
+						<span class='test-time'>Jan 29, 2018 09:12:54 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 29, 2018 09:12:54 AM</span>
+	<span class='label end-time'>Jan 29, 2018 09:12:57 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+421ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:54 AM</td>
+					<td class='step-details'>Login sucessfull</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:12:57 AM</td>
+					<td class='step-details'>Create and view a dataset is passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-29-2018\VerifiedSucesfullLogin.jpg'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -455,126 +648,6 @@
 </div>
 <!-- test view -->
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.Exception</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Jan 17, 2018 10:51:24 PM</td>
-                                                        <td class='linked' test-id='3'>Searching Notes & Discrepancies</td>
-                                                        <td><pre><pre>java.lang.Exception
-	at cucumber.framework.PageObject.OC_NotesAndDiscrepanices.verifySearchResult(OC_NotesAndDiscrepanices.java:62)
-	at com.cucumber.framework.stepDefinitions.OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result(OC_NotesAndDiscrepancies_StepDefinition.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -584,31 +657,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>17</div>
+					<div class='panel-lead'>41</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 17, 2018 10:51:12 PM</div>
+					<div class='panel-lead'>Jan 29, 2018 09:12:14 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 17, 2018 10:51:31 PM</div>
+			 		<div class='panel-lead'>Jan 29, 2018 09:12:57 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>18,816ms</div>
+					<div class='panel-lead'>42,926ms</div>
 				</div>
 			</div>
 		</div>
@@ -621,22 +694,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 3,
-				failParent: 1,
+				passParent: 8,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 14,
-				failChild: 3,
+				passChild: 41,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 3,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

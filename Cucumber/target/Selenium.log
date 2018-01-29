@@ -1100,3 +1100,1114 @@ Session ID: 4feabc21ab860678e7b5ded958df4d4c
 2018-01-17 22:51:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
 2018-01-17 22:51:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@29d334c
 2018-01-17 22:51:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:38:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7530ad9c
+2018-01-20 11:38:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:38:44 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 11:38:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:38:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4c5204af
+2018-01-20 11:38:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:38:56 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:38:58 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (33b66d1b726cca1258180d877bf2ce6d)] -> name: gender] Value :Male
+2018-01-20 11:39:00 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@73386d72
+2018-01-20 11:39:00 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:39:01 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:39:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3af37506
+2018-01-20 11:39:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:39:03 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:39:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@56193c7d
+2018-01-20 11:39:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:48:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7530ad9c
+2018-01-20 11:48:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:48:41 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 11:48:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:48:51 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4c5204af
+2018-01-20 11:48:51 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:48:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:48:52 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (bbc20b362bf63084ddcee01b2e5b77d1)] -> name: gender] Value :Male
+2018-01-20 11:48:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@73386d72
+2018-01-20 11:48:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:48:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:48:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3af37506
+2018-01-20 11:48:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 11:48:56 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 11:49:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@56193c7d
+2018-01-20 11:49:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:07:47 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:07:47 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:07:47 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:07:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:07:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:07:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:07:56 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:09:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:09:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:09:09 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:09:18 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:09:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:09:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:09:19 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:13:24 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:13:24 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:13:25 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:13:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:13:34 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:13:34 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:13:34 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:14:15 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:14:15 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:14:15 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:14:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:14:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:14:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:14:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:25:20 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:25:20 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:25:21 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:25:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:25:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:25:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:25:29 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:27:02 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:27:02 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:27:02 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:27:10 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:27:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:27:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:27:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:28:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:28:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:28:33 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:28:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:28:40 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:28:40 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:28:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:30:00 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:30:00 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:30:00 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:30:10 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:30:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:30:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:30:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:31:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 12:31:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:31:58 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:32:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:32:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 12:32:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:32:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:34:27 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 12:34:27 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:34:27 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:34:35 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:34:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@de8039f
+2018-01-20 12:34:36 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:34:36 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:40:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 12:40:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:40:05 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:40:13 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:40:14 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 12:40:14 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:40:14 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:46:10 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:46:10 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:46:10 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:46:18 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:46:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:46:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:46:19 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:47:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:47:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:47:40 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:47:47 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:47:48 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:47:48 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:47:48 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:51:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:51:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:51:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:51:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:51:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:51:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:51:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:52:24 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 12:52:24 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:52:25 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:52:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:52:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 12:52:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:52:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:54:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 12:54:36 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:54:37 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 12:54:44 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 12:54:45 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 12:54:45 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 12:54:45 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:20:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:20:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:20:33 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:20:42 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:20:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:20:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:20:43 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:33:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:33:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:33:39 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:33:48 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:33:48 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:33:48 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:33:48 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:34:15 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:34:15 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:34:15 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:34:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:34:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:34:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:34:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:35:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:35:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:35:32 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:35:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:35:40 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:35:40 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:35:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:37:28 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:37:28 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:37:29 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:37:36 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:37:37 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:37:37 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:37:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:58:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 13:58:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:58:13 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:58:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:58:22 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 13:58:22 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:58:22 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:59:20 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 13:59:20 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:59:20 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:59:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:59:27 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 13:59:27 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:59:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:59:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 13:59:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:59:50 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 13:59:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 13:59:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@59f93db8
+2018-01-20 13:59:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 13:59:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:02:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 14:02:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:02:13 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 14:02:20 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:02:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 14:02:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:02:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:02:34 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 14:02:34 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:02:35 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 14:02:42 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:02:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 14:02:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:02:42 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:22:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 14:22:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:22:08 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 14:22:15 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:22:16 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 14:22:16 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:22:16 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:51:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 14:51:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:51:01 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 14:51:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 14:51:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 14:51:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 14:51:09 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:04:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 15:04:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:04:58 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:05:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:05:06 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 15:05:06 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:05:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:07:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 15:07:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:07:41 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:07:48 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:07:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 15:07:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:07:49 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:08:47 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 15:08:47 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:08:47 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:08:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:08:55 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 15:08:55 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:08:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:10:18 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 15:10:18 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:10:19 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:10:26 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:10:27 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 15:10:27 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:10:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:13:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 15:13:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:13:21 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:13:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:13:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 15:13:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:13:29 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:15:37 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 15:15:37 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:15:38 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:15:45 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:15:45 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6cc86152
+2018-01-20 15:15:45 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:15:45 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:30:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 15:30:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:30:25 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:30:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:30:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 15:30:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:30:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:46:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 15:46:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:46:12 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:46:18 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:46:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 15:46:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:46:19 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:47:30 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 15:47:30 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:47:30 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 15:47:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 15:47:37 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 15:47:37 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 15:47:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:07:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 16:07:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:07:03 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:07:10 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:07:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 16:07:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:07:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:07:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 16:07:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:07:57 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:08:04 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:08:05 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 16:08:05 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:08:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:08:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 16:08:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:08:43 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:08:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:08:51 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 16:08:51 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:08:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:09:59 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 16:09:59 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:09:59 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:10:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:10:07 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 16:10:07 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:10:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:11:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 16:11:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:11:02 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:11:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:11:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 16:11:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:11:09 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:12:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 16:12:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:12:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:12:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:12:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 16:12:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:12:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:14:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-20 16:14:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:14:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:14:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:14:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-20 16:14:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:14:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:15:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-20 16:15:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:15:13 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-20 16:15:20 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-20 16:15:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-20 16:15:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-20 16:15:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:52:55 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-21 09:52:55 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:52:56 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-21 09:53:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:53:07 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-21 09:53:07 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:53:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:53:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-21 09:53:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:53:45 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-21 09:53:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:53:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-21 09:53:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:53:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:54:20 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-21 09:54:20 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:54:21 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-21 09:54:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:54:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-21 09:54:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:54:29 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:55:52 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7c3fdb62
+2018-01-21 09:55:52 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:55:52 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-21 09:56:00 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:56:00 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@255eaa6b
+2018-01-21 09:56:00 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:56:01 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:56:59 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7dc0f706
+2018-01-21 09:56:59 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:57:00 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-21 09:57:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-21 09:57:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@199e4c2b
+2018-01-21 09:57:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-21 09:57:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-22 07:51:15 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-22 07:51:15 [INFO ] [TestBase] - [before] Chrome
+2018-01-22 08:12:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@17f7cd29
+2018-01-22 08:12:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-22 08:12:57 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-22 08:13:09 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-22 08:13:10 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-22 08:13:10 [INFO ] [TestBase] - [before] Chrome
+2018-01-22 08:13:10 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 08:47:15 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@17f7cd29
+2018-01-26 08:47:15 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 08:47:16 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 08:47:26 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 08:47:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 08:47:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 08:47:26 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:24:00 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@17f7cd29
+2018-01-26 09:24:00 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:24:00 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 09:24:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:24:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 09:24:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:24:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:26:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-26 09:26:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:26:20 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 09:26:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:26:28 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62df0ff3
+2018-01-26 09:26:28 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:26:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:26:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@34523d46
+2018-01-26 09:26:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:35:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@51a9ad5e
+2018-01-26 09:35:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:35:12 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 09:35:20 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:35:20 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4b65d9f4
+2018-01-26 09:35:20 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:35:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:39:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-26 09:39:36 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:39:36 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 09:39:44 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:39:45 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62df0ff3
+2018-01-26 09:39:45 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:39:45 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 09:39:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3003697
+2018-01-26 09:39:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:54:48 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 09:54:48 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:54:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@479ceda0
+2018-01-26 09:54:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:55:10 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5aebe890
+2018-01-26 09:55:10 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:55:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2d6c53fc
+2018-01-26 09:55:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:55:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7f36662c
+2018-01-26 09:55:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:56:38 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5aebe890
+2018-01-26 09:56:38 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:56:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2d6c53fc
+2018-01-26 09:56:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 09:56:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7f36662c
+2018-01-26 09:56:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:16:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@394df057
+2018-01-26 10:16:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:16:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@38ba6ce3
+2018-01-26 10:16:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:16:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fbe4146
+2018-01-26 10:16:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:16:33 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:16:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:16:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c49fab6
+2018-01-26 10:16:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:16:41 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:16:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2a3a299
+2018-01-26 10:16:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:18:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 10:18:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:18:13 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:18:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:18:22 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@28da7d11
+2018-01-26 10:18:22 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:18:22 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:18:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@315f09ef
+2018-01-26 10:18:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:19:54 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fbe4146
+2018-01-26 10:19:54 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:19:55 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:20:02 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:20:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c49fab6
+2018-01-26 10:20:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:20:03 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:20:07 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2a3a299
+2018-01-26 10:20:07 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:37:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c3d9b6b
+2018-01-26 10:37:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:37:33 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:37:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:37:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-26 10:37:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:37:41 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:37:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@456abb66
+2018-01-26 10:37:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:38:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@239105a8
+2018-01-26 10:38:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:38:54 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:39:02 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:39:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fcfde70
+2018-01-26 10:39:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:39:03 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:39:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4996c99
+2018-01-26 10:39:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:41:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@239105a8
+2018-01-26 10:41:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:41:50 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:41:58 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:41:59 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fcfde70
+2018-01-26 10:41:59 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:41:59 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:42:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4996c99
+2018-01-26 10:42:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:43:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c3d9b6b
+2018-01-26 10:43:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:43:43 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:43:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:43:51 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-26 10:43:51 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:43:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:43:55 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@456abb66
+2018-01-26 10:43:55 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:44:17 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@239105a8
+2018-01-26 10:44:17 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:44:17 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:44:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:44:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fcfde70
+2018-01-26 10:44:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:44:26 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:44:30 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@75d4a80f
+2018-01-26 10:44:30 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:49:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@239105a8
+2018-01-26 10:49:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:49:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 10:49:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:49:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fcfde70
+2018-01-26 10:49:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 10:49:14 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 10:49:18 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4996c99
+2018-01-26 10:49:18 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:03:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c3d9b6b
+2018-01-26 11:03:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:03:24 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 11:03:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:03:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-26 11:03:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:03:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:03:38 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@456abb66
+2018-01-26 11:03:38 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:10:10 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c3d9b6b
+2018-01-26 11:10:10 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:10:10 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 11:10:18 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:10:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-26 11:10:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:10:19 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:10:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@456abb66
+2018-01-26 11:10:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:13:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-26 11:13:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:13:43 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 11:13:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:13:52 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@26f3d90c
+2018-01-26 11:13:52 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 11:13:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 11:13:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2a3a299
+2018-01-26 11:13:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 13:58:35 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-26 13:58:35 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 13:58:35 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 13:58:43 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 13:58:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@26f3d90c
+2018-01-26 13:58:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 13:58:44 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 13:59:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@606fc505
+2018-01-26 13:59:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:00:06 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-26 14:00:06 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:00:06 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:00:14 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:00:15 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@26f3d90c
+2018-01-26 14:00:15 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:00:15 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:00:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@606fc505
+2018-01-26 14:00:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:01:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:01:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:01:47 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:01:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:01:55 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4c6007fb
+2018-01-26 14:01:55 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:01:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:08:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3ba46e63
+2018-01-26 14:08:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:09:59 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:09:59 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:09:59 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:10:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:10:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3e33d73e
+2018-01-26 14:10:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:10:09 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:11:17 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-26 14:11:17 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:11:17 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:11:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:11:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@26f3d90c
+2018-01-26 14:11:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:11:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:11:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@606fc505
+2018-01-26 14:11:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:12:38 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:12:38 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:12:38 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:12:46 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:12:47 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4c6007fb
+2018-01-26 14:12:47 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:12:47 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:13:52 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:13:52 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:13:52 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:14:00 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:14:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3e33d73e
+2018-01-26 14:14:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:14:01 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:24:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:24:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:24:45 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:24:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:24:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3e33d73e
+2018-01-26 14:24:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:24:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:26:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:26:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:26:03 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:26:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:26:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4d95a72e
+2018-01-26 14:26:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:26:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:27:34 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@75d4a80f
+2018-01-26 14:27:34 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:36:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-26 14:36:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:36:44 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 14:36:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:36:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4d95a72e
+2018-01-26 14:36:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 14:36:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 14:37:16 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@51d387d3
+2018-01-26 14:37:16 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:31:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@587e5365
+2018-01-26 20:31:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:37:59 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2663e964
+2018-01-26 20:37:59 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:37:59 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 20:38:08 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 20:38:08 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7aac8884
+2018-01-26 20:38:08 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:38:09 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 20:42:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 20:42:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:42:44 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 20:42:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 20:42:54 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@799ed4e8
+2018-01-26 20:42:54 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:42:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 20:51:42 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fbe4146
+2018-01-26 20:51:42 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:51:43 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 20:51:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 20:51:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c49fab6
+2018-01-26 20:51:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 20:51:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 21:48:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@ae13544
+2018-01-26 21:48:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 21:48:57 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 21:49:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 21:49:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 21:49:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 21:49:51 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 21:56:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 21:56:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 21:56:11 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 21:56:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 21:56:22 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@74518890
+2018-01-26 21:56:22 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 21:56:22 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 21:56:23 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (3a999990512b2957d7a30dd805617562)] -> name: gender] Value :Male
+2018-01-26 22:00:37 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 22:00:37 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:00:38 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:00:46 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:00:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@74518890
+2018-01-26 22:00:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:00:46 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:00:48 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (a2d7715a79f9e00fa34676d0ba8ab92f)] -> name: gender] Value :Male
+2018-01-26 22:00:48 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (a2d7715a79f9e00fa34676d0ba8ab92f)] -> name: studyEventDefinition] Value :Screening
+2018-01-26 22:08:45 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 22:08:45 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:08:46 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:08:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:08:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@74518890
+2018-01-26 22:08:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:08:56 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:08:58 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (a4792a126bb29838c8751ed821e9238d)] -> name: gender] Value :Male
+2018-01-26 22:08:58 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (a4792a126bb29838c8751ed821e9238d)] -> name: studyEventDefinition] Value :Screening
+2018-01-26 22:10:28 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1e66f1f5
+2018-01-26 22:10:28 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:10:29 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:10:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:10:38 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@74518890
+2018-01-26 22:10:38 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:10:38 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:10:40 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (e3d118e82971ce344b7f9bc7527e71bd)] -> name: gender] Value :Male
+2018-01-26 22:10:40 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (e3d118e82971ce344b7f9bc7527e71bd)] -> name: studyEventDefinition] Value :Screening
+2018-01-26 22:32:05 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7d94beb9
+2018-01-26 22:32:05 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:32:05 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:32:13 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:32:14 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@623dcf2a
+2018-01-26 22:32:14 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:32:14 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:32:15 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (c1e796755920205e9af27244f4c04342)] -> name: gender] Value :Male
+2018-01-26 22:32:15 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (c1e796755920205e9af27244f4c04342)] -> name: studyEventDefinition] Value :Screening
+2018-01-26 22:32:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@205d38da
+2018-01-26 22:32:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:32:44 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:32:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:33:31 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@205d38da
+2018-01-26 22:33:31 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:33:32 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:34:46 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:35:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@205d38da
+2018-01-26 22:35:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:35:39 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:35:59 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:49:18 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 22:49:18 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:49:18 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:49:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:50:16 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 22:50:16 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:50:16 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:50:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:50:24 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 22:50:24 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:50:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:51:52 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 22:51:52 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:51:52 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:52:00 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:52:01 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 22:52:01 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:52:01 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:57:20 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 22:57:20 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:57:20 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 22:57:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 22:57:28 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 22:57:28 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 22:57:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:16:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:16:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:16:26 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:16:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:16:34 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:16:34 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:16:34 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:17:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:17:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:17:46 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:17:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:17:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:17:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:17:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:30:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:30:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:30:46 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:30:53 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:30:53 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:30:53 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:30:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:31:47 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:31:47 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:31:47 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:31:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:31:54 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:31:54 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:31:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:33:17 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:33:17 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:33:17 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:33:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:33:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@799ed4e8
+2018-01-26 23:33:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:33:25 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:37:16 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:37:16 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:37:17 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:37:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:37:24 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 23:37:24 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:37:24 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:37:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:37:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:37:50 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:37:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:37:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 23:37:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:37:58 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:38:44 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:38:44 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:38:44 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:38:51 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:38:52 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 23:38:52 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:38:52 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:39:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:39:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:39:49 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:39:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:39:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 23:39:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:39:58 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:43:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:43:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:43:27 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:43:34 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:43:35 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:43:35 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:43:35 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:43:55 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@6aa8e115
+2018-01-26 23:43:55 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:43:55 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:44:02 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:44:03 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@2e66bc32
+2018-01-26 23:44:03 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:44:03 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:48:31 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@609cd4d8
+2018-01-26 23:48:31 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:48:31 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-26 23:48:38 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-26 23:48:39 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@1162410a
+2018-01-26 23:48:39 [INFO ] [TestBase] - [before] Chrome
+2018-01-26 23:48:39 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:11:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-27 00:11:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:15:22 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7530ad9c
+2018-01-27 00:15:22 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:16:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-27 00:16:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:16:21 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-27 00:16:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:16:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-27 00:16:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:16:29 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:16:34 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (36299db296a30512ddc164a993ec7705)] -> name: startHour] Value :3
+2018-01-27 00:16:34 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (36299db296a30512ddc164a993ec7705)] -> name: endMinute] Value :5
+2018-01-27 00:17:26 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-27 00:17:26 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:17:27 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-27 00:17:34 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:17:34 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-27 00:17:34 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:17:35 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:17:39 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d5bddb996bbc16e5d377c850bd35502c)] -> name: startHour] Value :3
+2018-01-27 00:17:39 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d5bddb996bbc16e5d377c850bd35502c)] -> name: endMinute] Value :5
+2018-01-27 00:17:39 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d5bddb996bbc16e5d377c850bd35502c)] -> name: endHour] Value :16
+2018-01-27 00:17:39 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d5bddb996bbc16e5d377c850bd35502c)] -> name: endMinute] Value :24
+2018-01-27 00:19:07 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-27 00:19:07 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:19:07 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-27 00:19:14 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:19:14 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-27 00:19:14 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:19:15 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:19:19 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (96307afb69d3489734ca5ffc2441c2f6)] -> name: startHour] Value :3
+2018-01-27 00:19:19 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (96307afb69d3489734ca5ffc2441c2f6)] -> name: endMinute] Value :5
+2018-01-27 00:19:19 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (96307afb69d3489734ca5ffc2441c2f6)] -> name: endHour] Value :16
+2018-01-27 00:19:20 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (96307afb69d3489734ca5ffc2441c2f6)] -> name: endMinute] Value :24
+2018-01-27 00:20:48 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-27 00:20:48 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:20:48 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-27 00:20:55 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:20:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-27 00:20:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-27 00:20:56 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-27 00:21:00 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (ac3ceb4fbe73f0000f4b9174c08e0007)] -> name: startHour] Value :3
+2018-01-27 00:21:00 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (ac3ceb4fbe73f0000f4b9174c08e0007)] -> name: startMinute] Value :5
+2018-01-27 00:21:01 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (ac3ceb4fbe73f0000f4b9174c08e0007)] -> name: endHour] Value :16
+2018-01-27 00:21:01 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (ac3ceb4fbe73f0000f4b9174c08e0007)] -> name: endMinute] Value :24
+2018-01-28 13:56:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 13:56:37 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 13:56:37 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 13:56:45 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 13:56:46 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-28 13:56:46 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 13:56:46 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 13:56:51 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (6ea5e44e2ec17d2cc3cd835e7e21cfdc)] -> name: startHour] Value :3
+2018-01-28 13:56:51 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (6ea5e44e2ec17d2cc3cd835e7e21cfdc)] -> name: startMinute] Value :5
+2018-01-28 13:56:51 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (6ea5e44e2ec17d2cc3cd835e7e21cfdc)] -> name: endHour] Value :16
+2018-01-28 13:56:51 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (6ea5e44e2ec17d2cc3cd835e7e21cfdc)] -> name: endMinute] Value :24
+2018-01-28 14:03:25 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 14:03:25 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:03:25 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 14:03:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 14:03:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@61019f59
+2018-01-28 14:03:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:03:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 14:04:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 14:04:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:04:24 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 14:04:31 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 14:04:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 14:04:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:04:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 14:47:35 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@7530ad9c
+2018-01-28 14:47:35 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:54:31 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@58a9760d
+2018-01-28 14:54:31 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:54:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@158a8276
+2018-01-28 14:54:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:54:50 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 14:54:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 14:54:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 14:54:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 14:54:58 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:15:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@72ade7e3
+2018-01-28 15:15:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:15:24 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:15:32 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:15:33 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 15:15:33 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:15:33 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:36:24 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@158a8276
+2018-01-28 15:36:24 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:36:24 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:36:32 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@72ade7e3
+2018-01-28 15:36:32 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:36:33 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:36:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:36:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5fcfde70
+2018-01-28 15:36:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:36:41 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:47:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@72ade7e3
+2018-01-28 15:47:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:47:42 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:47:49 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:47:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 15:47:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:47:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:58:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@158a8276
+2018-01-28 15:58:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:58:29 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:58:36 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:58:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 15:58:36 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:58:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:59:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@158a8276
+2018-01-28 15:59:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:59:43 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 15:59:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 15:59:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 15:59:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 15:59:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:00:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@158a8276
+2018-01-28 16:00:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:00:56 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:01:03 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:01:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:01:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:01:04 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:01:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:01:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:01:57 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:02:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:02:05 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:02:05 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:02:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:16:35 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:16:35 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:16:35 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:16:42 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:16:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:16:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:16:43 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:17:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:17:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:17:58 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:18:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:18:06 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:18:06 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:18:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:18:49 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 16:18:49 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:18:50 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:18:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:18:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 16:18:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:18:57 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:23:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 16:23:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:23:21 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:23:28 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:23:29 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 16:23:29 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:23:29 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:24:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 16:24:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:24:59 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:25:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:25:06 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 16:25:06 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:25:07 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:37:58 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:37:58 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:37:58 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:38:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:38:06 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:38:06 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:38:06 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:39:09 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 16:39:09 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:39:09 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:39:16 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:39:17 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 16:39:17 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:39:17 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:56:13 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:56:13 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:56:14 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:56:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:56:21 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:56:21 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:56:21 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:59:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:59:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:59:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 16:59:10 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:59:11 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 16:59:11 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:59:11 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 16:59:57 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 16:59:57 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 16:59:58 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 17:00:04 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 17:00:05 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 17:00:05 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 17:00:05 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 17:01:19 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5f20155b
+2018-01-28 17:01:19 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 17:01:19 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 17:01:26 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 17:01:27 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@44536de4
+2018-01-28 17:01:27 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 17:01:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 17:05:54 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@13b6aecc
+2018-01-28 17:05:54 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 17:05:54 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 17:06:01 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 17:06:02 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@62e8f862
+2018-01-28 17:06:02 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 17:06:02 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 21:04:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@58a9760d
+2018-01-28 21:04:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 21:04:56 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@71e9ddb4
+2018-01-28 21:04:56 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 21:54:45 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@394df057
+2018-01-28 21:54:45 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:00:31 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-28 22:00:31 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:00:32 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 22:00:40 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 22:00:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c49fab6
+2018-01-28 22:00:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:00:41 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 22:02:04 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3fce8fd9
+2018-01-28 22:02:04 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:02:04 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 22:02:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 22:02:12 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@4b65d9f4
+2018-01-28 22:02:12 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:02:12 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 22:04:41 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@79d8407f
+2018-01-28 22:04:41 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:04:42 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-28 22:04:49 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-28 22:04:50 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3c49fab6
+2018-01-28 22:04:50 [INFO ] [TestBase] - [before] Chrome
+2018-01-28 22:04:50 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:14 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@68267da0
+2018-01-29 09:12:14 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:14 [INFO ] [WebDriverUtility] - [getBrowserObject] Chrome
+2018-01-29 09:12:23 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:23 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3e681bc
+2018-01-29 09:12:23 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:23 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:25 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: gender] Value :Male
+2018-01-29 09:12:25 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: studyEventDefinition] Value :Screening
+2018-01-29 09:12:27 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@304a9d7b
+2018-01-29 09:12:27 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:27 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:31 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@5b56b654
+2018-01-29 09:12:31 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:31 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:35 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: startHour] Value :3
+2018-01-29 09:12:36 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: startMinute] Value :5
+2018-01-29 09:12:36 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: endHour] Value :16
+2018-01-29 09:12:36 [INFO ] [DropDownHelper] - [selectUsingVisibeValue] WebElement :[[ChromeDriver: chrome on XP (d55d8ee2969d9deefed2eeb87c38b95b)] -> name: endMinute] Value :24
+2018-01-29 09:12:36 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@51e37590
+2018-01-29 09:12:36 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:37 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:43 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@646811d6
+2018-01-29 09:12:43 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:43 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:48 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@3d43fe
+2018-01-29 09:12:48 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:48 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out
+2018-01-29 09:12:54 [INFO ] [TestBase] - [before] property file reader object is createdcucumber.framework.configreader.PropertyFileReader@ec1b2e4
+2018-01-29 09:12:54 [INFO ] [TestBase] - [before] Chrome
+2018-01-29 09:12:54 [INFO ] [VerificationHelper] - [isElementPresent] Element is displayed Log Out

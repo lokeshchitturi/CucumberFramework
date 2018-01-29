@@ -1,6 +1,7 @@
 package cucumber.framework.PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import com.aventstack.extentreports.Status;
 
@@ -19,6 +20,48 @@ public class OC_AddSubject_PageObject extends WebDriverUtility {
 	static String saveAndAddSubject_button = "name:submitEnroll";
 	static String saveAndFinish_button = "name:submitDone";
 	static String AddSubjectSuccessMsg="cssselector:.title_manage";
+	static String addSubject_Link="id:addSubject";
+	static String studyEvent_dropdown="name:studyEventDefinition";
+	static String startDate_textbox="name:startDate";
+	static String add_button="name:addSubject";
+	static String cancel_button="name:cancel";
+	
+	public static void clickAddButton() throws Exception
+	{
+		try {
+			getWebElement(add_button).click();
+			logger.log(Status.PASS, " Clicked on add button in 'Add Subject Form'");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.log(Status.FAIL, e);
+			throw new Exception(e);
+		}
+	}
+	
+	public static void clickCancelButton() throws Exception
+	{
+		try {
+			getWebElement(cancel_button).click();
+			logger.log(Status.PASS, " Clicked on cancel button in 'Add Subject Form'");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.log(Status.FAIL, e);
+			throw new Exception(e);
+		}
+	}
+	
+	public static void clickAddSubjectLink() throws Exception
+	{
+		try {
+			getWebElement(addSubject_Link).click();
+			System.out.println("Still code");
+			logger.log(Status.PASS, " Clicked on add subject link");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.log(Status.FAIL, e);
+			throw new Exception(e);
+		}
+	}
 	
 	public static void clickLinkOnTab(String tabName) throws Exception
 	{
@@ -101,6 +144,32 @@ public class OC_AddSubject_PageObject extends WebDriverUtility {
 		}
 	}
 
+	public static void selectStudyEvent(String eventName) throws Exception
+	{
+		try {
+			DropDownHelper.selectUsingVisibeValue(getWebElement(studyEvent_dropdown), eventName);
+			logger.log(Status.PASS, "Selected study event in 'Add Subject form'");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.log(Status.FAIL, e);
+			throw new Exception(e);
+		}
+	}
+	
+	public static void enterStartDate(String startDate) throws Exception
+	{
+		try {
+			WebElement ele=getWebElement(startDate_textbox);
+			ele.clear();
+			ele.sendKeys(startDate);
+			logger.log(Status.PASS, "Selected start date in 'Add Subject form'");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.log(Status.FAIL, e);
+			throw new Exception(e);
+		}
+	}
+	
 	public static void clickSaveAndAssignEvent() throws Exception {
 		try {
 			getWebElement(saveAndAssignEvent_button).click();

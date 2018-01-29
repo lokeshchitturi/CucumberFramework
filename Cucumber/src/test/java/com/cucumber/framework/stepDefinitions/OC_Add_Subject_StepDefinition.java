@@ -7,6 +7,14 @@ import cucumber.framework.PageObject.OC_Login_PageObject;
 import cucumber.framework.utility.WebDriverUtility;
 
 public class OC_Add_Subject_StepDefinition {
+	
+	@Given("^user clicks on Add subject link$")
+	public void user_clicks_on_Add_subject_link() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	 OC_AddSubject_PageObject.clickAddSubjectLink();
+	}
+
+
 
 	@Given("^user logged into application$")
 	public void user_logged_into_application() throws Throwable {
@@ -14,8 +22,8 @@ public class OC_Add_Subject_StepDefinition {
 		OC_Login_PageObject.verifyLogin();
 	}
 
-	@Given("^user clicked on \"([^\"]*)\" link$")
-	public void user_clicked_on_link(String arg1) throws Throwable {
+	@Given("^user clicked on \"([^\"]*)\" tab$")
+	public void user_clicked_on_tab(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    OC_AddSubject_PageObject.clickLinkOnTab(arg1);
 	}
@@ -55,7 +63,31 @@ public class OC_Add_Subject_StepDefinition {
 	    // Write code here that turns the phrase above into concrete actions
 	    OC_AddSubject_PageObject.selectDOB(arg1);
 	}
-
+	
+	@Given("^user enters study event as \"([^\"]*)\"$")
+	public void user_enters_study_event_as(String arg1) throws Throwable
+	{
+		OC_AddSubject_PageObject.selectStudyEvent(arg1);
+	}
+	
+	@Given("^user clicks add button in Add Subject Form$")
+	public void user_clicks_add_button_in_Add_Subject_Form() throws Throwable
+	{
+		OC_AddSubject_PageObject.clickAddButton();
+	}
+	
+	@Given("^user clicks cancel button in Add Subject Form$")
+	public void user_clicks_cancel_button_in_Add_Subject_Form() throws Throwable
+	{
+		OC_AddSubject_PageObject.clickCancelButton();
+	}
+	
+	@Given("^user enters start date as \"([^\"]*)\"$")
+	public void user_enters_start_date_as(String arg1) throws Throwable
+	{
+		OC_AddSubject_PageObject.enterStartDate(arg1);
+	}
+	
 	@Given("^user clicks on save and finish button$")
 	public void user_clicks_on_save_and_finish_button() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions

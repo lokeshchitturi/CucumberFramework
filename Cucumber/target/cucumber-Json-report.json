@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 315461450,
+              "duration": 409323395,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 5,
+        "line": 4,
         "name": "Login Validation",
         "description": "",
         "id": "validating-functionalities-of-openclinic;login-validation",
         "after": [
           {
             "result": {
-              "duration": 439918115,
+              "duration": 359585084,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5911347398,
+              "duration": 6898557153,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "user navigates to application",
             "match": {
               "location": "OC_Login_StepDefinition.user_navigates_to_application()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 685964775,
+              "duration": 639428692,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "user enters valid username and password",
             "match": {
               "location": "OC_Login_StepDefinition.user_enters_valid_username_and_password()"
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 539775626,
+              "duration": 804228096,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "user clicks on login",
             "match": {
               "location": "OC_Login_StepDefinition.user_clicks_on_login()"
@@ -70,13 +70,13 @@
           },
           {
             "result": {
-              "duration": 443666567,
+              "duration": 501734670,
               "status": "passed"
             },
             "output": [
               "Finished scenario"
             ],
-            "line": 9,
+            "line": 8,
             "name": "user verifies the succesful login",
             "match": {
               "location": "OC_Login_StepDefinition.user_verifies_the_succesful_login()"
@@ -86,8 +86,12 @@
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 3,
             "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@wf"
           }
         ]
       },
@@ -95,7 +99,7 @@
         "before": [
           {
             "result": {
-              "duration": 2132892,
+              "duration": 1332003,
               "status": "passed"
             },
             "match": {
@@ -103,14 +107,14 @@
             }
           }
         ],
-        "line": 38,
-        "name": "Searching subject",
+        "line": 28,
+        "name": "Adding a subject to the study via link",
         "description": "",
-        "id": "validating-functionalities-of-openclinic;searching-subject;;2",
+        "id": "validating-functionalities-of-openclinic;adding-a-subject-to-the-study-via-link;;2",
         "after": [
           {
             "result": {
-              "duration": 63362335,
+              "duration": 59830328,
               "status": "passed"
             },
             "match": {
@@ -123,10 +127,10 @@
         "steps": [
           {
             "result": {
-              "duration": 396275371,
+              "duration": 404685609,
               "status": "passed"
             },
-            "line": 31,
+            "line": 13,
             "name": "user logged into application",
             "match": {
               "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
@@ -135,11 +139,11 @@
           },
           {
             "result": {
-              "duration": 862181977,
+              "duration": 405655832,
               "status": "passed"
             },
-            "line": 32,
-            "name": "user clicked on \"Subject Matrix\" link",
+            "line": 14,
+            "name": "user clicked on \"Subject Matrix\" tab",
             "match": {
               "arguments": [
                 {
@@ -147,7 +151,7 @@
                   "offset": 17
                 }
               ],
-              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_link(String)"
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
             },
             "matchedColumns": [
               0
@@ -156,15 +160,272 @@
           },
           {
             "result": {
-              "duration": 755466232,
+              "duration": 103909962,
               "status": "passed"
             },
-            "line": 33,
-            "name": "user searches for the subjectID \"1043\" in subject matrix table",
+            "line": 15,
+            "name": "user clicks on Add subject link",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_clicks_on_Add_subject_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118712212,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the subject id as \"29\"",
             "match": {
               "arguments": [
                 {
-                  "val": "1043",
+                  "val": "29",
+                  "offset": 31
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_the_subject_id_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95338392,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the Person id as \"29\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 30
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_the_Person_id_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164871404,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the date of enrolment date as \"29-Jan-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29-Jan-2018",
+                  "offset": 43
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_the_date_of_enrolment_date_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167529187,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user selects gender as \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 24
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_selects_gender_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132569569,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters date of birth as \"22-Apr-1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22-Apr-1992",
+                  "offset": 30
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_date_of_birth_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106264189,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters study event as \"Screening\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Screening",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_study_event_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176435425,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters start date as \"26-Jan-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26-Jan-2018",
+                  "offset": 27
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_enters_start_date_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781922279,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks add button in Add Subject Form",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_clicks_add_button_in_Add_Subject_Form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498460886,
+              "status": "passed"
+            },
+            "output": [
+              "Finished scenario"
+            ],
+            "line": 24,
+            "name": "user verifies succesful Add subject",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_verifies_succesful_Add_subject()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@wf"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2118670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Searching subject",
+        "description": "",
+        "id": "validating-functionalities-of-openclinic;searching-subject;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 74484577,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 414951849,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user logged into application",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302554315,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicked on \"Subject Matrix\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Subject Matrix",
+                  "offset": 17
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 872245106,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user searches for the subjectID \"29\" in subject matrix table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
                   "offset": 33
                 }
               ],
@@ -177,13 +438,13 @@
           },
           {
             "result": {
-              "duration": 1032002279,
+              "duration": 2562621000,
               "status": "passed"
             },
             "output": [
               "Finished scenario"
             ],
-            "line": 34,
+            "line": 35,
             "name": "user opens the subject ID",
             "match": {
               "location": "OC_SubjectMatrix_StepDefinition.user_opens_the_subject_ID()"
@@ -193,8 +454,8 @@
         ],
         "tags": [
           {
-            "line": 29,
-            "name": "@login"
+            "line": 30,
+            "name": "@wf"
           }
         ]
       },
@@ -202,7 +463,7 @@
         "before": [
           {
             "result": {
-              "duration": 1396892,
+              "duration": 1281335,
               "status": "passed"
             },
             "match": {
@@ -210,14 +471,14 @@
             }
           }
         ],
-        "line": 50,
-        "name": "Searching Notes \u0026 Discrepancies",
+        "line": 53,
+        "name": "Scheduling the event",
         "description": "",
-        "id": "validating-functionalities-of-openclinic;searching-notes-\u0026-discrepancies;;2",
+        "id": "validating-functionalities-of-openclinic;scheduling-the-event;;2",
         "after": [
           {
             "result": {
-              "duration": 428990985,
+              "duration": 65519672,
               "status": "passed"
             },
             "match": {
@@ -230,10 +491,10 @@
         "steps": [
           {
             "result": {
-              "duration": 488655980,
+              "duration": 389085581,
               "status": "passed"
             },
-            "line": 42,
+            "line": 43,
             "name": "user logged into application",
             "match": {
               "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
@@ -242,19 +503,19 @@
           },
           {
             "result": {
-              "duration": 406746945,
+              "duration": 223539953,
               "status": "passed"
             },
-            "line": 43,
-            "name": "user clicked on \"Notes \u0026 Discrepancies\" link",
+            "line": 44,
+            "name": "user clicked on \"Subject Matrix\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "Notes \u0026 Discrepancies",
+                  "val": "Subject Matrix",
                   "offset": 17
                 }
               ],
-              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_link(String)"
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
             },
             "matchedColumns": [
               0
@@ -263,35 +524,1107 @@
           },
           {
             "result": {
-              "duration": 490940873,
+              "duration": 626710003,
               "status": "passed"
             },
-            "line": 44,
-            "name": "user displays the Notes table header fields in console",
+            "line": 45,
+            "name": "user searches for the subjectID \"29\" in subject matrix table",
             "match": {
-              "location": "OC_NotesAndDiscrepancies_StepDefinition.user_displays_the_Notes_table_header_fields_in_console()"
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 33
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2938324335,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user schedules the event \"Visit 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Visit 1",
+                  "offset": 26
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_schedules_the_event(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490274649,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user selects the startDate/Time as \"29-Jan-2018\" \"3\" \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29-Jan-2018",
+                  "offset": 36
+                },
+                {
+                  "val": "3",
+                  "offset": 50
+                },
+                {
+                  "val": "5",
+                  "offset": 54
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_selects_the_startDate_Time_as(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427450093,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user selects the endDate/Time as \"29-Jan-2018\" \"16\" \"24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29-Jan-2018",
+                  "offset": 34
+                },
+                {
+                  "val": "16",
+                  "offset": 48
+                },
+                {
+                  "val": "24",
+                  "offset": 53
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_selects_the_endDate_Time_as(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322943240,
+              "status": "passed"
+            },
+            "output": [
+              "Finished scenario"
+            ],
+            "line": 49,
+            "name": "user clicks on proceed to enter data",
+            "match": {
+              "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_proceed_to_enter_data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@wf"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1201336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Fill the \"Form\" form for the event",
+        "description": "",
+        "id": "validating-functionalities-of-openclinic;fill-the-\"form\"-form-for-the-event;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 56969435,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 424766088,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user logged into application",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283394281,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicked on \"Subject Matrix\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Subject Matrix",
+                  "offset": 17
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 641858030,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user searches for the subjectID \"29\" in subject matrix table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 33
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2602690849,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user clicks on Enter Data in the event \"Screening\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Screening",
+                  "offset": 40
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 875958890,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user searches for the form \"FORM\" and opens it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FORM",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131497567,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user inputs the form field \"Name:Lokesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name:Lokesh",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115658427,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user inputs the form field \"Age:24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Age:24",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81334366,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user inputs the form field \"Sex:Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sex:Male",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115755761,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user inputs the form field \"Status:Single\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Status:Single",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121435327,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user inputs the form field \"Checked by sign:Present\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by sign:Present",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162132733,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by date:29-Jan-2018",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467524831,
+              "status": "passed"
+            },
+            "output": [
+              "Finished scenario"
+            ],
+            "line": 68,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@wf"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1030224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Fill the \"Form\" form for the event",
+        "description": "",
+        "id": "validating-functionalities-of-openclinic;fill-the-\"form\"-form-for-the-event;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 62882334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 419322079,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user logged into application",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260611575,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicked on \"Subject Matrix\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Subject Matrix",
+                  "offset": 17
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675249645,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user searches for the subjectID \"29\" in subject matrix table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 33
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2646607816,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user clicks on Enter Data in the event \"Visit 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Visit 1",
+                  "offset": 40
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434554551,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user searches for the form \"FORM\" and opens it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FORM",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96219282,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user inputs the form field \"Name:Sai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name:Sai",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93764611,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user inputs the form field \"Age:25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Age:25",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71334793,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user inputs the form field \"Sex:Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sex:Female",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98053952,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user inputs the form field \"Status:Married\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Status:Married",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115479317,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user inputs the form field \"Checked by sign:Present\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by sign:Present",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144396702,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by date:29-Jan-2018",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359667306,
+              "status": "passed"
+            },
+            "output": [
+              "Finished scenario"
+            ],
+            "line": 68,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@wf"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 858223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "Fill the \"DoctorPrescription\" form for the event",
+        "description": "",
+        "id": "validating-functionalities-of-openclinic;fill-the-\"doctorprescription\"-form-for-the-event;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71977461,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 383530015,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user logged into application",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238834646,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user clicked on \"Subject Matrix\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Subject Matrix",
+                  "offset": 17
+                }
+              ],
+              "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592023275,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user searches for the subjectID \"29\" in subject matrix table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 33
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2665852740,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "user clicks on Enter Data in the event \"Visit 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Visit 1",
+                  "offset": 40
+                }
+              ],
+              "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 451463914,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user searches for the form \"DoctorPrescription\" and opens it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DoctorPrescription",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91997052,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user inputs the form field \"Patient Name:Sai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patient Name:Sai",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97317506,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user inputs the form field \"Patient Age:28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patient Age:28",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115869539,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user inputs the form field \"Disease:Fever\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Disease:Fever",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567113,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user inputs the form field \"Tablets:Chrosine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets:Chrosine",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98321508,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user inputs the form field \"Checked by sign:Present\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by sign:Present",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157572724,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checked by date:29-Jan-2018",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114066869,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user inputs the form field \"Doctor Name:Yuvaraj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Doctor Name:Yuvaraj",
+                  "offset": 28
+                }
+              ],
+              "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436418109,
+              "status": "passed"
+            },
+            "output": [
+              "Finished scenario"
+            ],
+            "line": 89,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 75,
+            "name": "@wf"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1213335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "Create and view a dataset",
+        "description": "",
+        "id": "validating-functionalities-of-openclinic;create-and-view-a-dataset;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 130474010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 459443039,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user logged into application",
+            "match": {
+              "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423017197,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "user clicks on \"Create Dataset\" in tasks list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Dataset",
+                  "offset": 16
+                }
+              ],
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_in_tasks_list(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248729331,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "user clicks on Procced to create dataset link",
+            "match": {
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_Procced_to_create_dataset_link()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 216430607,
+              "duration": 99941511,
               "status": "passed"
             },
-            "line": 45,
-            "name": "user enters Filter \"Site ID\" value as \"A\"",
+            "line": 100,
+            "name": "user clicks on Select All items in study link",
+            "match": {
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_Select_All_items_in_study_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 517992920,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "user clicks on Save and define scope button",
+            "match": {
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_Save_and_define_scope_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152211382,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "user clicks on Continue button in Define Temporal Scope page",
+            "match": {
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Define_Temporal_Scope_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190543450,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user enters Name as \"ReportOnJan29\" and description as \"ReportOnJan29\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Site ID",
-                  "offset": 20
+                  "val": "ReportOnJan29",
+                  "offset": 21
                 },
                 {
-                  "val": "A",
-                  "offset": 39
+                  "val": "ReportOnJan29",
+                  "offset": 56
                 }
               ],
-              "location": "OC_NotesAndDiscrepancies_StepDefinition.user_enters_Filter_value_as(String,String)"
+              "location": "OC_DataSet_StepDefinition.user_enters_Name_as_and_description_as(String,String)"
             },
             "matchedColumns": [
               1,
@@ -301,78 +1634,28 @@
           },
           {
             "result": {
-              "duration": 3173205197,
-              "error_message": "java.lang.Exception\r\n\tat cucumber.framework.PageObject.OC_NotesAndDiscrepanices.verifySearchResult(OC_NotesAndDiscrepanices.java:62)\r\n\tat com.cucumber.framework.stepDefinitions.OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result(OC_NotesAndDiscrepancies_StepDefinition.java:25)\r\n\tat ✽.And user verifies the search result(featurefile/OpenClinic.feature:46)\r\n",
-              "status": "failed"
+              "duration": 1319998347,
+              "status": "passed"
             },
             "output": [
               "Finished scenario"
             ],
-            "line": 46,
-            "name": "user verifies the search result",
+            "line": 104,
+            "name": "user clicks on Continue button in Specify Dataset Properties page",
             "match": {
-              "location": "OC_NotesAndDiscrepancies_StepDefinition.user_verifies_the_search_result()"
+              "location": "OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Specify_Dataset_Properties_page()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 40,
+            "line": 95,
             "name": "@login"
-          }
-        ]
-      },
-      {
-        "before": [
+          },
           {
-            "result": {
-              "duration": 1379558,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TestBase.before(Scenario)"
-            }
-          }
-        ],
-        "line": 53,
-        "name": "Closing the browser",
-        "description": "",
-        "id": "validating-functionalities-of-openclinic;closing-the-browser",
-        "after": [
-          {
-            "result": {
-              "duration": 97171728,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TestBase.after(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2318440566,
-              "status": "passed"
-            },
-            "output": [
-              "Finished scenario"
-            ],
-            "line": 54,
-            "name": "user closes the browser",
-            "match": {
-              "location": "OC_Login_StepDefinition.user_closes_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 52,
-            "name": "@login"
+            "line": 95,
+            "name": "@wf"
           }
         ]
       }
