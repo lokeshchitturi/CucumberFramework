@@ -30,6 +30,7 @@ public class OC_AddSubject_PageObject extends WebDriverUtility {
 	{
 		try {
 			getWebElement(add_button).click();
+			logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("FilledAddSubjectForm"));
 			logger.log(Status.PASS, " Clicked on add button in 'Add Subject Form'");
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -68,6 +69,7 @@ public class OC_AddSubject_PageObject extends WebDriverUtility {
 		try {
 			driver.findElement(By.linkText(tabName)).click();
 			logger.log(Status.PASS, "Clicked on "+tabName);
+			logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("ClickedTab"));
 		} catch (Exception e) {
 			// TODO: handle exception
 			logger.log(Status.FAIL, e);

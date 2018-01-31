@@ -89,7 +89,7 @@ public class OC_Login_PageObject extends WebDriverUtility{
 			else
 			{
 				logger.log(Status.FAIL, "Login unsucessfull");
-				logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("LoginSucesfull"));
+				logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("LoginUnSucesfull"));
 				return false;
 			}
 		} catch (Exception e) {

@@ -5,6 +5,8 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.Status;
+
 import cucumber.framework.utility.ExcelUtility;
 import cucumber.framework.utility.WebDriverUtility;
 
@@ -46,10 +48,12 @@ public class OC_EnterDataForCRFs_PageObject extends WebDriverUtility{
 				{	
 					WebElement ele=coloumnData.get(5);
 					rowActions=ele.findElements(By.xpath("table/tbody/tr//img"));
-					System.out.println(rowActions.size());
+					//System.out.println(rowActions.size());
 					//performAction("Enter Data");
 					rowActions.get(0).click();
-					System.out.println("a");
+					//System.out.println("a");
+					logger.log(Status.PASS, "Searched and opens the CRF form");
+					logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("CRFForm"));
 					break;
 				}
 			}

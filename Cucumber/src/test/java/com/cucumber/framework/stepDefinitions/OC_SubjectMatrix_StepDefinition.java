@@ -19,6 +19,7 @@ public class OC_SubjectMatrix_StepDefinition {
 	    OC_SubjectMatrix_PageObject.enterStartDate(arg1);
 	    OC_SubjectMatrix_PageObject.selectStartHour(arg2);
 	    OC_SubjectMatrix_PageObject.selectStartMinute(arg3);
+	    
 	}
 
 	@Given("^user selects the endDate/Time as \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
@@ -27,6 +28,7 @@ public class OC_SubjectMatrix_StepDefinition {
 	    OC_SubjectMatrix_PageObject.enterEndDate(arg1);
 	    OC_SubjectMatrix_PageObject.selectEndHour(arg2);
 	    OC_SubjectMatrix_PageObject.selectEndMinute(arg3);
+	    
 	}
 	
 	
@@ -34,7 +36,7 @@ public class OC_SubjectMatrix_StepDefinition {
 	public void user_searches_for_the_subjectID_in_subject_matrix_table(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		OC_SubjectMatrix_PageObject.searchSubject(arg1);
-		WebDriverUtility.logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("Sample"));
+		WebDriverUtility.logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("SearchSubject"));
 		
 		
 	}

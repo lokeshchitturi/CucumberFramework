@@ -198,6 +198,8 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 					//System.out.println(list.size());
 					if (list.size() == 1) {
 						list.get(0).click();
+						logger.log(Status.PASS, "Scheduled Event "+eventName+" with Subject ID "+subjectID_temp);
+						logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("Scheduled Event "+eventName+" with Subject ID "+subjectID_temp));
 					} else {
 						throw new Exception("Already Scheduled");
 						//driver.findElement(By.linkText("View/Enter Data")).click();
@@ -207,7 +209,7 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
-			logger.log(Status.FAIL, e);
+			logger.log(Status.FAIL, "Unable to schedule event "+e);
 			throw e;
 		}
 	}
@@ -230,6 +232,7 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 					System.out.println(list.size());
 					if (list.size() == 1) {
 						list.get(0).click();
+						logger.log(Status.PASS, "Cliked on Enter Data link in the subject "+subjectID_temp);
 						break;
 					}
 				}
@@ -264,6 +267,8 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 					actions.moveToElement(ele).doubleClick();
 					actions.build().perform();
 					flag = true;
+					logger.log(Status.PASS,"Opned the subject with id "+subjectID_temp);
+					logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("Opened Subject"+subjectID_temp));
 					break;
 				} else {
 					count++;

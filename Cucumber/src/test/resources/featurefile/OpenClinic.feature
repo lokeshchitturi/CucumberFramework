@@ -1,6 +1,6 @@
 Feature: Validating functionalities of OpenClinic
 
-  @login @wf
+  @login @wf @test
   Scenario: Login Validation
     Given user navigates to application
     And user enters valid username and password
@@ -25,7 +25,7 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName        | subjectID | personID | secondaryID | enrollmentDate | gender | dob         | studyevent | startdate   |
-      | Subject Matrix |        29 |       29 |         124 | 29-Jan-2018    | Male   | 22-Apr-1992 | Screening  | 26-Jan-2018 |
+      | Subject Matrix |        31 |       31 |         782 | 31-Jan-2018    | Male   | 22-Apr-1992 | Screening  | 31-Jan-2018 |
 
   @wf
   Scenario Outline: Searching subject
@@ -36,7 +36,7 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName        | SubjectIDValue |
-      | Subject Matrix |             29 |
+      | Subject Matrix |             31 |
 
   @wf
   Scenario Outline: Scheduling the event
@@ -50,7 +50,7 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName        | SubjectIDValue | eventName | startDate   | startHour | startMinute | endDate     | endHour | endMinute |
-      | Subject Matrix |             29 | Visit 1   | 29-Jan-2018 |         3 |           5 | 29-Jan-2018 |      16 |        24 |
+      | Subject Matrix |             31 | Visit 1   | 31-Jan-2018 |         3 |           5 | 31-Jan-2018 |      16 |        24 |
 
   @wf
   Scenario Outline: Fill the "Form" form for the event
@@ -69,10 +69,10 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName        | SubjectIDValue | eventName | formName | fieldValue1 | fieldValue2 | fieldValue3 | fieldValue4    | fieldValue5             | fieldValue6                 |
-      | Subject Matrix |             29 | Screening | FORM     | Name:Lokesh | Age:24      | Sex:Male    | Status:Single  | Checked by sign:Present | Checked by date:29-Jan-2018 |
-      | Subject Matrix |             29 | Visit 1   | FORM     | Name:Sai    | Age:25      | Sex:Female  | Status:Married | Checked by sign:Present | Checked by date:29-Jan-2018 |
+      | Subject Matrix |             31 | Screening | FORM     | Name:Lokesh | Age:24      | Sex:1    | Status:Single  | Checked by sign:Present | Checked by date:31-Jan-2018 |
+      | Subject Matrix |             31 | Visit 1   | FORM     | Name:Sai    | Age:25      | Sex:2  | Status:Married | Checked by sign:Present | Checked by date:31-Jan-2018 |
 
-  @wf
+  @wf @test
   Scenario Outline: Fill the "DoctorPrescription" form for the event
     Given user logged into application
     And user clicked on "<TabName>" tab
@@ -90,9 +90,9 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName        | SubjectIDValue | eventName | formName           | fieldValue1      | fieldValue2    | fieldValue3   | fieldValue4      | fieldValue5             | fieldValue6                 | fieldValue7         |
-      | Subject Matrix |             29 | Visit 1   | DoctorPrescription | Patient Name:Sai | Patient Age:28 | Disease:Fever | Tablets:Chrosine | Checked by sign:Present | Checked by date:29-Jan-2018 | Doctor Name:Yuvaraj |
+      | Subject Matrix |             31 | Visit 1   | DoctorPrescription | Patient Name:Sai | Patient Age:28 | Disease:Fever | Tablets:Chrosine | Checked by sign:Present | Checked by date:31-Jan-2018 | Doctor Name:Yuvaraj |
 
-  @login @wf
+  @login @wf @test
   Scenario Outline: Create and view a dataset
     Given user logged into application
     And user clicks on "<link>" in tasks list
@@ -105,7 +105,7 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | link           | Name          | Description   |
-      | Create Dataset | ReportOnJan29 | ReportOnJan29 |
+      | Create Dataset | ReportOnJan31_2 | ReportOnJan31_2 |
 
   Scenario Outline: Adding a subject to the study via tab
     Given user logged into application
@@ -121,7 +121,7 @@ Feature: Validating functionalities of OpenClinic
 
     Examples: 
       | TabName     | subjectID | personID | secondaryID | enrollmentDate | gender | dob         |
-      | Add Subject |        45 |     2945 |         342 | 20-Jan-2018    | Male   | 22-Apr-1992 |
+      | Add Subject |        45 |     3145 |         342 | 20-Jan-2018    | Male   | 22-Apr-1992 |
 
   Scenario Outline: Fill the Form
     Given user opens the form "<formName>" for the event "<eventName>"

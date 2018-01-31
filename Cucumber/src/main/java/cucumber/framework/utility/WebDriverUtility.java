@@ -74,7 +74,7 @@ public class WebDriverUtility {
 			destDir.mkdir();
 		}
 		
-		File destpath=new File(destDir.getAbsolutePath()+System.getProperty("file.separator")+screenshotName+".jpg");
+		File destpath=new File(destDir.getAbsolutePath()+System.getProperty("file.separator")+screenshotName+"_"+DateTimeHelper.getCurrentDateTime()+".jpg");
 			
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		

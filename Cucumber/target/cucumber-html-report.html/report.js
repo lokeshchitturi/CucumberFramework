@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 409323395,
+  "duration": 312274778,
   "status": "passed"
 });
 formatter.scenario({
@@ -25,6 +25,10 @@ formatter.scenario({
     {
       "line": 3,
       "name": "@wf"
+    },
+    {
+      "line": 3,
+      "name": "@test"
     }
   ]
 });
@@ -52,33 +56,33 @@ formatter.match({
   "location": "OC_Login_StepDefinition.user_navigates_to_application()"
 });
 formatter.result({
-  "duration": 6898557153,
+  "duration": 6026944493,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Login_StepDefinition.user_enters_valid_username_and_password()"
 });
 formatter.result({
-  "duration": 639428692,
+  "duration": 729530185,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Login_StepDefinition.user_clicks_on_login()"
 });
 formatter.result({
-  "duration": 804228096,
+  "duration": 478290629,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Login_StepDefinition.user_verifies_the_succesful_login()"
 });
 formatter.result({
-  "duration": 501734670,
+  "duration": 486017308,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 359585084,
+  "duration": 471177282,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -185,14 +189,14 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29",
-        "29",
-        "124",
-        "29-Jan-2018",
+        "31",
+        "31",
+        "782",
+        "31-Jan-2018",
         "Male",
         "22-Apr-1992",
         "Screening",
-        "26-Jan-2018"
+        "31-Jan-2018"
       ],
       "line": 28,
       "id": "validating-functionalities-of-openclinic;adding-a-subject-to-the-study-via-link;;2"
@@ -201,7 +205,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1332003,
+  "duration": 5866232,
   "status": "passed"
 });
 formatter.scenario({
@@ -238,7 +242,7 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "user enters the subject id as \"29\"",
+  "name": "user enters the subject id as \"31\"",
   "matchedColumns": [
     1
   ],
@@ -246,7 +250,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "user enters the Person id as \"29\"",
+  "name": "user enters the Person id as \"31\"",
   "matchedColumns": [
     2
   ],
@@ -254,7 +258,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
-  "name": "user enters the date of enrolment date as \"29-Jan-2018\"",
+  "name": "user enters the date of enrolment date as \"31-Jan-2018\"",
   "matchedColumns": [
     4
   ],
@@ -286,7 +290,7 @@ formatter.step({
 });
 formatter.step({
   "line": 22,
-  "name": "user enters start date as \"26-Jan-2018\"",
+  "name": "user enters start date as \"31-Jan-2018\"",
   "matchedColumns": [
     8
   ],
@@ -306,7 +310,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 404685609,
+  "duration": 425865201,
   "status": "passed"
 });
 formatter.match({
@@ -319,53 +323,53 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 405655832,
+  "duration": 763492913,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicks_on_Add_subject_link()"
 });
 formatter.result({
-  "duration": 103909962,
+  "duration": 97184618,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 31
     }
   ],
   "location": "OC_Add_Subject_StepDefinition.user_enters_the_subject_id_as(String)"
 });
 formatter.result({
-  "duration": 118712212,
+  "duration": 109113972,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 30
     }
   ],
   "location": "OC_Add_Subject_StepDefinition.user_enters_the_Person_id_as(String)"
 });
 formatter.result({
-  "duration": 95338392,
+  "duration": 76776581,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29-Jan-2018",
+      "val": "31-Jan-2018",
       "offset": 43
     }
   ],
   "location": "OC_Add_Subject_StepDefinition.user_enters_the_date_of_enrolment_date_as(String)"
 });
 formatter.result({
-  "duration": 164871404,
+  "duration": 162547400,
   "status": "passed"
 });
 formatter.match({
@@ -378,7 +382,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_selects_gender_as(String)"
 });
 formatter.result({
-  "duration": 167529187,
+  "duration": 123202886,
   "status": "passed"
 });
 formatter.match({
@@ -391,7 +395,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_enters_date_of_birth_as(String)"
 });
 formatter.result({
-  "duration": 132569569,
+  "duration": 141490474,
   "status": "passed"
 });
 formatter.match({
@@ -404,39 +408,39 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_enters_study_event_as(String)"
 });
 formatter.result({
-  "duration": 106264189,
+  "duration": 137969579,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "26-Jan-2018",
+      "val": "31-Jan-2018",
       "offset": 27
     }
   ],
   "location": "OC_Add_Subject_StepDefinition.user_enters_start_date_as(String)"
 });
 formatter.result({
-  "duration": 176435425,
+  "duration": 162314511,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicks_add_button_in_Add_Subject_Form()"
 });
 formatter.result({
-  "duration": 781922279,
+  "duration": 540761850,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_verifies_succesful_Add_subject()"
 });
 formatter.result({
-  "duration": 498460886,
+  "duration": 543644078,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 59830328,
+  "duration": 75180133,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -490,7 +494,7 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29"
+        "31"
       ],
       "line": 39,
       "id": "validating-functionalities-of-openclinic;searching-subject;;2"
@@ -499,7 +503,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2118670,
+  "duration": 1962670,
   "status": "passed"
 });
 formatter.scenario({
@@ -531,7 +535,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "user searches for the subjectID \"29\" in subject matrix table",
+  "name": "user searches for the subjectID \"31\" in subject matrix table",
   "matchedColumns": [
     1
   ],
@@ -546,7 +550,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 414951849,
+  "duration": 413387402,
   "status": "passed"
 });
 formatter.match({
@@ -559,32 +563,32 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 302554315,
+  "duration": 589324604,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 33
     }
   ],
   "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
 });
 formatter.result({
-  "duration": 872245106,
+  "duration": 728975518,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_opens_the_subject_ID()"
 });
 formatter.result({
-  "duration": 2562621000,
+  "duration": 3205443476,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 74484577,
+  "duration": 84840151,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -660,12 +664,12 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29",
+        "31",
         "Visit 1",
-        "29-Jan-2018",
+        "31-Jan-2018",
         "3",
         "5",
-        "29-Jan-2018",
+        "31-Jan-2018",
         "16",
         "24"
       ],
@@ -676,7 +680,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1281335,
+  "duration": 1439558,
   "status": "passed"
 });
 formatter.scenario({
@@ -708,7 +712,7 @@ formatter.step({
 });
 formatter.step({
   "line": 45,
-  "name": "user searches for the subjectID \"29\" in subject matrix table",
+  "name": "user searches for the subjectID \"31\" in subject matrix table",
   "matchedColumns": [
     1
   ],
@@ -724,7 +728,7 @@ formatter.step({
 });
 formatter.step({
   "line": 47,
-  "name": "user selects the startDate/Time as \"29-Jan-2018\" \"3\" \"5\"",
+  "name": "user selects the startDate/Time as \"31-Jan-2018\" \"3\" \"5\"",
   "matchedColumns": [
     3,
     4,
@@ -734,7 +738,7 @@ formatter.step({
 });
 formatter.step({
   "line": 48,
-  "name": "user selects the endDate/Time as \"29-Jan-2018\" \"16\" \"24\"",
+  "name": "user selects the endDate/Time as \"31-Jan-2018\" \"16\" \"24\"",
   "matchedColumns": [
     6,
     7,
@@ -751,7 +755,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 389085581,
+  "duration": 454458141,
   "status": "passed"
 });
 formatter.match({
@@ -764,20 +768,20 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 223539953,
+  "duration": 714836382,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 33
     }
   ],
   "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
 });
 formatter.result({
-  "duration": 626710003,
+  "duration": 671570527,
   "status": "passed"
 });
 formatter.match({
@@ -790,13 +794,13 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_schedules_the_event(String)"
 });
 formatter.result({
-  "duration": 2938324335,
+  "duration": 3223197730,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29-Jan-2018",
+      "val": "31-Jan-2018",
       "offset": 36
     },
     {
@@ -811,13 +815,13 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_selects_the_startDate_Time_as(String,String,String)"
 });
 formatter.result({
-  "duration": 490274649,
+  "duration": 453091027,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29-Jan-2018",
+      "val": "31-Jan-2018",
       "offset": 34
     },
     {
@@ -832,19 +836,19 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_selects_the_endDate_Time_as(String,String,String)"
 });
 formatter.result({
-  "duration": 427450093,
+  "duration": 438527001,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_proceed_to_enter_data()"
 });
 formatter.result({
-  "duration": 322943240,
+  "duration": 248711109,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 65519672,
+  "duration": 63173445,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -946,15 +950,15 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29",
+        "31",
         "Screening",
         "FORM",
         "Name:Lokesh",
         "Age:24",
-        "Sex:Male",
+        "Sex:1",
         "Status:Single",
         "Checked by sign:Present",
-        "Checked by date:29-Jan-2018"
+        "Checked by date:31-Jan-2018"
       ],
       "line": 72,
       "id": "validating-functionalities-of-openclinic;fill-the-\"form\"-form-for-the-event;;2"
@@ -962,15 +966,15 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29",
+        "31",
         "Visit 1",
         "FORM",
         "Name:Sai",
         "Age:25",
-        "Sex:Female",
+        "Sex:2",
         "Status:Married",
         "Checked by sign:Present",
-        "Checked by date:29-Jan-2018"
+        "Checked by date:31-Jan-2018"
       ],
       "line": 73,
       "id": "validating-functionalities-of-openclinic;fill-the-\"form\"-form-for-the-event;;3"
@@ -979,7 +983,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1201336,
+  "duration": 3328006,
   "status": "passed"
 });
 formatter.scenario({
@@ -1011,7 +1015,7 @@ formatter.step({
 });
 formatter.step({
   "line": 59,
-  "name": "user searches for the subjectID \"29\" in subject matrix table",
+  "name": "user searches for the subjectID \"31\" in subject matrix table",
   "matchedColumns": [
     1
   ],
@@ -1051,7 +1055,7 @@ formatter.step({
 });
 formatter.step({
   "line": 64,
-  "name": "user inputs the form field \"Sex:Male\"",
+  "name": "user inputs the form field \"Sex:1\"",
   "matchedColumns": [
     6
   ],
@@ -1075,7 +1079,7 @@ formatter.step({
 });
 formatter.step({
   "line": 67,
-  "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+  "name": "user inputs the form field \"Checked by date:31-Jan-2018\"",
   "matchedColumns": [
     9
   ],
@@ -1090,7 +1094,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 424766088,
+  "duration": 432618991,
   "status": "passed"
 });
 formatter.match({
@@ -1103,20 +1107,20 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 283394281,
+  "duration": 639069137,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 33
     }
   ],
   "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
 });
 formatter.result({
-  "duration": 641858030,
+  "duration": 708602149,
   "status": "passed"
 });
 formatter.match({
@@ -1129,7 +1133,7 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
 });
 formatter.result({
-  "duration": 2602690849,
+  "duration": 3052905872,
   "status": "passed"
 });
 formatter.match({
@@ -1142,7 +1146,7 @@ formatter.match({
   "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
 });
 formatter.result({
-  "duration": 875958890,
+  "duration": 1144008256,
   "status": "passed"
 });
 formatter.match({
@@ -1155,7 +1159,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 131497567,
+  "duration": 126722004,
   "status": "passed"
 });
 formatter.match({
@@ -1168,20 +1172,20 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 115658427,
+  "duration": 122206884,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sex:Male",
+      "val": "Sex:1",
       "offset": 28
     }
   ],
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 81334366,
+  "duration": 108228637,
   "status": "passed"
 });
 formatter.match({
@@ -1194,7 +1198,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 115755761,
+  "duration": 122690441,
   "status": "passed"
 });
 formatter.match({
@@ -1207,36 +1211,36 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 121435327,
+  "duration": 141114473,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Checked by date:29-Jan-2018",
+      "val": "Checked by date:31-Jan-2018",
       "offset": 28
     }
   ],
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 162132733,
+  "duration": 171546527,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
 });
 formatter.result({
-  "duration": 467524831,
+  "duration": 745551548,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 56969435,
+  "duration": 69871235,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1030224,
+  "duration": 1438224,
   "status": "passed"
 });
 formatter.scenario({
@@ -1268,7 +1272,7 @@ formatter.step({
 });
 formatter.step({
   "line": 59,
-  "name": "user searches for the subjectID \"29\" in subject matrix table",
+  "name": "user searches for the subjectID \"31\" in subject matrix table",
   "matchedColumns": [
     1
   ],
@@ -1308,7 +1312,7 @@ formatter.step({
 });
 formatter.step({
   "line": 64,
-  "name": "user inputs the form field \"Sex:Female\"",
+  "name": "user inputs the form field \"Sex:2\"",
   "matchedColumns": [
     6
   ],
@@ -1332,7 +1336,7 @@ formatter.step({
 });
 formatter.step({
   "line": 67,
-  "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+  "name": "user inputs the form field \"Checked by date:31-Jan-2018\"",
   "matchedColumns": [
     9
   ],
@@ -1347,7 +1351,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 419322079,
+  "duration": 371731772,
   "status": "passed"
 });
 formatter.match({
@@ -1360,20 +1364,20 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 260611575,
+  "duration": 625586890,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 33
     }
   ],
   "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
 });
 formatter.result({
-  "duration": 675249645,
+  "duration": 646274927,
   "status": "passed"
 });
 formatter.match({
@@ -1386,7 +1390,7 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
 });
 formatter.result({
-  "duration": 2646607816,
+  "duration": 2676462092,
   "status": "passed"
 });
 formatter.match({
@@ -1399,7 +1403,7 @@ formatter.match({
   "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
 });
 formatter.result({
-  "duration": 434554551,
+  "duration": 826071246,
   "status": "passed"
 });
 formatter.match({
@@ -1412,7 +1416,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 96219282,
+  "duration": 113663313,
   "status": "passed"
 });
 formatter.match({
@@ -1425,20 +1429,20 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 93764611,
+  "duration": 101629070,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sex:Female",
+      "val": "Sex:2",
       "offset": 28
     }
   ],
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 71334793,
+  "duration": 112429089,
   "status": "passed"
 });
 formatter.match({
@@ -1451,7 +1455,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 98053952,
+  "duration": 111131753,
   "status": "passed"
 });
 formatter.match({
@@ -1464,32 +1468,32 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 115479317,
+  "duration": 109414861,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Checked by date:29-Jan-2018",
+      "val": "Checked by date:31-Jan-2018",
       "offset": 28
     }
   ],
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 144396702,
+  "duration": 212212822,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
 });
 formatter.result({
-  "duration": 359667306,
+  "duration": 763919580,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 62882334,
+  "duration": 113359757,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1503,6 +1507,10 @@ formatter.scenarioOutline({
     {
       "line": 75,
       "name": "@wf"
+    },
+    {
+      "line": 75,
+      "name": "@test"
     }
   ]
 });
@@ -1597,7 +1605,7 @@ formatter.examples({
     {
       "cells": [
         "Subject Matrix",
-        "29",
+        "31",
         "Visit 1",
         "DoctorPrescription",
         "Patient Name:Sai",
@@ -1605,7 +1613,7 @@ formatter.examples({
         "Disease:Fever",
         "Tablets:Chrosine",
         "Checked by sign:Present",
-        "Checked by date:29-Jan-2018",
+        "Checked by date:31-Jan-2018",
         "Doctor Name:Yuvaraj"
       ],
       "line": 93,
@@ -1615,7 +1623,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 858223,
+  "duration": 6049789,
   "status": "passed"
 });
 formatter.scenario({
@@ -1626,6 +1634,10 @@ formatter.scenario({
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
+    {
+      "line": 75,
+      "name": "@test"
+    },
     {
       "line": 75,
       "name": "@wf"
@@ -1647,7 +1659,7 @@ formatter.step({
 });
 formatter.step({
   "line": 79,
-  "name": "user searches for the subjectID \"29\" in subject matrix table",
+  "name": "user searches for the subjectID \"31\" in subject matrix table",
   "matchedColumns": [
     1
   ],
@@ -1711,7 +1723,7 @@ formatter.step({
 });
 formatter.step({
   "line": 87,
-  "name": "user inputs the form field \"Checked by date:29-Jan-2018\"",
+  "name": "user inputs the form field \"Checked by date:31-Jan-2018\"",
   "matchedColumns": [
     9
   ],
@@ -1734,7 +1746,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 383530015,
+  "duration": 469197279,
   "status": "passed"
 });
 formatter.match({
@@ -1747,20 +1759,20 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)"
 });
 formatter.result({
-  "duration": 238834646,
+  "duration": 698497242,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "29",
+      "val": "31",
       "offset": 33
     }
   ],
   "location": "OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)"
 });
 formatter.result({
-  "duration": 592023275,
+  "duration": 684540328,
   "status": "passed"
 });
 formatter.match({
@@ -1773,7 +1785,7 @@ formatter.match({
   "location": "OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)"
 });
 formatter.result({
-  "duration": 2665852740,
+  "duration": 3107229080,
   "status": "passed"
 });
 formatter.match({
@@ -1786,7 +1798,7 @@ formatter.match({
   "location": "OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)"
 });
 formatter.result({
-  "duration": 451463914,
+  "duration": 839494381,
   "status": "passed"
 });
 formatter.match({
@@ -1799,7 +1811,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 91997052,
+  "duration": 105789966,
   "status": "passed"
 });
 formatter.match({
@@ -1812,7 +1824,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 97317506,
+  "duration": 117005542,
   "status": "passed"
 });
 formatter.match({
@@ -1825,7 +1837,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 115869539,
+  "duration": 229831519,
   "status": "passed"
 });
 formatter.match({
@@ -1838,7 +1850,7 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 567113,
+  "duration": 347145506,
   "status": "passed"
 });
 formatter.match({
@@ -1851,20 +1863,20 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 98321508,
+  "duration": 259960018,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Checked by date:29-Jan-2018",
+      "val": "Checked by date:31-Jan-2018",
       "offset": 28
     }
   ],
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 157572724,
+  "duration": 271039593,
   "status": "passed"
 });
 formatter.match({
@@ -1877,19 +1889,19 @@ formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)"
 });
 formatter.result({
-  "duration": 114066869,
+  "duration": 200141689,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_CRFForm_StepDefinition.user_clicks_on_Save_button()"
 });
 formatter.result({
-  "duration": 436418109,
+  "duration": 743174655,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 71977461,
+  "duration": 66417896,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1907,6 +1919,10 @@ formatter.scenarioOutline({
     {
       "line": 95,
       "name": "@wf"
+    },
+    {
+      "line": 95,
+      "name": "@test"
     }
   ]
 });
@@ -1968,8 +1984,8 @@ formatter.examples({
     {
       "cells": [
         "Create Dataset",
-        "ReportOnJan29",
-        "ReportOnJan29"
+        "ReportOnJan31_2",
+        "ReportOnJan31_2"
       ],
       "line": 108,
       "id": "validating-functionalities-of-openclinic;create-and-view-a-dataset;;2"
@@ -1978,7 +1994,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1213335,
+  "duration": 1638670,
   "status": "passed"
 });
 formatter.scenario({
@@ -1992,6 +2008,10 @@ formatter.scenario({
     {
       "line": 95,
       "name": "@login"
+    },
+    {
+      "line": 95,
+      "name": "@test"
     },
     {
       "line": 95,
@@ -2034,7 +2054,7 @@ formatter.step({
 });
 formatter.step({
   "line": 103,
-  "name": "user enters Name as \"ReportOnJan29\" and description as \"ReportOnJan29\"",
+  "name": "user enters Name as \"ReportOnJan31_2\" and description as \"ReportOnJan31_2\"",
   "matchedColumns": [
     1,
     2
@@ -2050,7 +2070,7 @@ formatter.match({
   "location": "OC_Add_Subject_StepDefinition.user_logged_into_application()"
 });
 formatter.result({
-  "duration": 459443039,
+  "duration": 473802176,
   "status": "passed"
 });
 formatter.match({
@@ -2063,64 +2083,64 @@ formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_in_tasks_list(String)"
 });
 formatter.result({
-  "duration": 423017197,
+  "duration": 609467306,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_Procced_to_create_dataset_link()"
 });
 formatter.result({
-  "duration": 248729331,
+  "duration": 153024272,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_Select_All_items_in_study_link()"
 });
 formatter.result({
-  "duration": 99941511,
+  "duration": 89595271,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_Save_and_define_scope_button()"
 });
 formatter.result({
-  "duration": 517992920,
+  "duration": 315994340,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Define_Temporal_Scope_page()"
 });
 formatter.result({
-  "duration": 152211382,
+  "duration": 173858976,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "ReportOnJan29",
+      "val": "ReportOnJan31_2",
       "offset": 21
     },
     {
-      "val": "ReportOnJan29",
-      "offset": 56
+      "val": "ReportOnJan31_2",
+      "offset": 58
     }
   ],
   "location": "OC_DataSet_StepDefinition.user_enters_Name_as_and_description_as(String,String)"
 });
 formatter.result({
-  "duration": 190543450,
+  "duration": 271080037,
   "status": "passed"
 });
 formatter.match({
   "location": "OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Specify_Dataset_Properties_page()"
 });
 formatter.result({
-  "duration": 1319998347,
+  "duration": 860951753,
   "status": "passed"
 });
 formatter.write("Finished scenario");
 formatter.after({
-  "duration": 130474010,
+  "duration": 229047074,
   "status": "passed"
 });
 });

@@ -5,6 +5,8 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.Status;
+
 import cucumber.framework.helper.AlertHelper;
 import cucumber.framework.utility.WebDriverUtility;
 
@@ -47,6 +49,7 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 			getWebElement(confirmAndSave_button).click();
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to click on Confirm And Save button");
 			throw e;
 		}
 	}
@@ -64,6 +67,7 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to click on Item Status");
 			throw e;
 		}
 	}
@@ -88,8 +92,10 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 	{
 		try {
 			getWebElement(datasetName).sendKeys(name);
+			logger.log(Status.PASS, "able to enter Data set name");
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to enter Data set name");
 			throw e;
 		}
 	}
@@ -98,8 +104,11 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 	{
 		try {
 			getWebElement(datasetDescription).sendKeys(desc);
+			logger.log(Status.PASS, "able to enter Data set descritption");
+			logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("DataSetForm"));
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to enter Data set descritption");
 			throw e;
 		}
 	}
@@ -110,6 +119,7 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 			getWebElement(DTScontinue_button).click();
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to click Define Temporal scope button");
 			throw e;
 		}
 	}
@@ -121,6 +131,7 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 			getWebElement(saveAndDefineScope_button).click();
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to click save and Define Scope");
 			throw e;
 		}
 	}
@@ -132,6 +143,7 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 			getWebElement(tasks_link).click();
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "unable to click Task link");
 			throw e;
 		}
 	}
@@ -141,8 +153,10 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 		try {
 			clickOnTaskLink();
 			driver.findElement(By.xpath("//*[@id='subnav_Tasks']/div//a[text()='"+taskName+"']")).click();
+			logger.log(Status.PASS, "Clicked on "+taskName);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			logger.log(Status.FAIL, "Unable to click on task "+taskName);
 			throw e;
 		}
 	}
@@ -151,8 +165,10 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 	{
 		try {
 			getWebElement(proccedToCreate_button).click();
+			logger.log(Status.PASS, "able to click on proceed to create button");
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "Unable to click on proceed to create button");
 			throw e;
 		}
 	}
@@ -162,8 +178,10 @@ public class OC_DataSet_PageObject extends WebDriverUtility{
 		try {
 			getWebElement(selectAllItems_link).click();
 			AlertHelper.acceptAlert();
+			logger.log(Status.PASS, "able to click on select all items link ");
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.log(Status.FAIL, "Unable to click on select all items link ");
 			throw e;
 		}
 	}

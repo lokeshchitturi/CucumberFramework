@@ -2,8 +2,11 @@ package cucumber.framework.PageObject;
 
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.Status;
+
 import cucumber.framework.helper.AlertHelper;
 import cucumber.framework.helper.TestBase;
+import cucumber.framework.utility.WebDriverUtility;
 
 public class OC_CRFForm_PageObject extends TestBase{
 	
@@ -29,7 +32,9 @@ public class OC_CRFForm_PageObject extends TestBase{
 	public static void clickSaveButton() throws Exception
 	{
 		try {
+			logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("Filled CRF Form"));
 			getWebElement(save_button).click();
+			logger.log(Status.PASS, "Clicked on save button");
 		} catch (Exception e) {
 			// TODO: handle exception
 			throw e;

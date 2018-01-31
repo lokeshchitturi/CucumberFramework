@@ -1,7 +1,7 @@
 Feature: Validating functionalities of OpenClinic
 [34mFinished scenario[0m
 
-  @login @wf
+  @login @wf @test
   Scenario: Login Validation                    [90m# featurefile/OpenClinic.feature:4[0m
     [32mGiven [0m[32muser navigates to application[0m         [90m# OC_Login_StepDefinition.user_navigates_to_application()[0m
     [32mAnd [0m[32muser enters valid username and password[0m [90m# OC_Login_StepDefinition.user_enters_valid_username_and_password()[0m
@@ -32,13 +32,13 @@ Feature: Validating functionalities of OpenClinic
     [32mGiven [0m[32muser logged into application[0m                          [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                    [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
     [32mAnd [0m[32muser clicks on Add subject link[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicks_on_Add_subject_link()[0m
-    [32mAnd [0m[32muser enters the subject id as "[0m[32m[1m29[0m[32m"[0m                      [90m# OC_Add_Subject_StepDefinition.user_enters_the_subject_id_as(String)[0m
-    [32mAnd [0m[32muser enters the Person id as "[0m[32m[1m29[0m[32m"[0m                       [90m# OC_Add_Subject_StepDefinition.user_enters_the_Person_id_as(String)[0m
-    [32mAnd [0m[32muser enters the date of enrolment date as "[0m[32m[1m29-Jan-2018[0m[32m"[0m [90m# OC_Add_Subject_StepDefinition.user_enters_the_date_of_enrolment_date_as(String)[0m
+    [32mAnd [0m[32muser enters the subject id as "[0m[32m[1m31[0m[32m"[0m                      [90m# OC_Add_Subject_StepDefinition.user_enters_the_subject_id_as(String)[0m
+    [32mAnd [0m[32muser enters the Person id as "[0m[32m[1m31[0m[32m"[0m                       [90m# OC_Add_Subject_StepDefinition.user_enters_the_Person_id_as(String)[0m
+    [32mAnd [0m[32muser enters the date of enrolment date as "[0m[32m[1m31-Jan-2018[0m[32m"[0m [90m# OC_Add_Subject_StepDefinition.user_enters_the_date_of_enrolment_date_as(String)[0m
     [32mAnd [0m[32muser selects gender as "[0m[32m[1mMale[0m[32m"[0m                           [90m# OC_Add_Subject_StepDefinition.user_selects_gender_as(String)[0m
     [32mAnd [0m[32muser enters date of birth as "[0m[32m[1m22-Apr-1992[0m[32m"[0m              [90m# OC_Add_Subject_StepDefinition.user_enters_date_of_birth_as(String)[0m
     [32mAnd [0m[32muser enters study event as "[0m[32m[1mScreening[0m[32m"[0m                  [90m# OC_Add_Subject_StepDefinition.user_enters_study_event_as(String)[0m
-    [32mAnd [0m[32muser enters start date as "[0m[32m[1m26-Jan-2018[0m[32m"[0m                 [90m# OC_Add_Subject_StepDefinition.user_enters_start_date_as(String)[0m
+    [32mAnd [0m[32muser enters start date as "[0m[32m[1m31-Jan-2018[0m[32m"[0m                 [90m# OC_Add_Subject_StepDefinition.user_enters_start_date_as(String)[0m
     [32mAnd [0m[32muser clicks add button in Add Subject Form[0m              [90m# OC_Add_Subject_StepDefinition.user_clicks_add_button_in_Add_Subject_Form()[0m
     [32mThen [0m[32muser verifies succesful Add subject[0m                    [90m# OC_Add_Subject_StepDefinition.user_verifies_succesful_Add_subject()[0m
 
@@ -56,7 +56,7 @@ Feature: Validating functionalities of OpenClinic
   Scenario Outline: Searching subject                                [90m# featurefile/OpenClinic.feature:39[0m
     [32mGiven [0m[32muser logged into application[0m                               [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
-    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m29[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m31[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
     [32mAnd [0m[32muser opens the subject ID[0m                                    [90m# OC_SubjectMatrix_StepDefinition.user_opens_the_subject_ID()[0m
 
   @wf
@@ -76,10 +76,10 @@ Feature: Validating functionalities of OpenClinic
   Scenario Outline: Scheduling the event                             [90m# featurefile/OpenClinic.feature:53[0m
     [32mGiven [0m[32muser logged into application[0m                               [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
-    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m29[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m31[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
     [32mAnd [0m[32muser schedules the event "[0m[32m[1mVisit 1[0m[32m"[0m                           [90m# OC_SubjectMatrix_StepDefinition.user_schedules_the_event(String)[0m
-    [32mAnd [0m[32muser selects the startDate/Time as "[0m[32m[1m29-Jan-2018[0m[32m" "[0m[32m[1m3[0m[32m" "[0m[32m[1m5[0m[32m"[0m     [90m# OC_SubjectMatrix_StepDefinition.user_selects_the_startDate_Time_as(String,String,String)[0m
-    [32mAnd [0m[32muser selects the endDate/Time as "[0m[32m[1m29-Jan-2018[0m[32m" "[0m[32m[1m16[0m[32m" "[0m[32m[1m24[0m[32m"[0m     [90m# OC_SubjectMatrix_StepDefinition.user_selects_the_endDate_Time_as(String,String,String)[0m
+    [32mAnd [0m[32muser selects the startDate/Time as "[0m[32m[1m31-Jan-2018[0m[32m" "[0m[32m[1m3[0m[32m" "[0m[32m[1m5[0m[32m"[0m     [90m# OC_SubjectMatrix_StepDefinition.user_selects_the_startDate_Time_as(String,String,String)[0m
+    [32mAnd [0m[32muser selects the endDate/Time as "[0m[32m[1m31-Jan-2018[0m[32m" "[0m[32m[1m16[0m[32m" "[0m[32m[1m24[0m[32m"[0m     [90m# OC_SubjectMatrix_StepDefinition.user_selects_the_endDate_Time_as(String,String,String)[0m
     [32mAnd [0m[32muser clicks on proceed to enter data[0m                         [90m# OC_SubjectMatrix_StepDefinition.user_clicks_on_proceed_to_enter_data()[0m
 
   @wf
@@ -104,15 +104,15 @@ Feature: Validating functionalities of OpenClinic
   Scenario Outline: Fill the "Form" form for the event               [90m# featurefile/OpenClinic.feature:72[0m
     [32mGiven [0m[32muser logged into application[0m                               [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
-    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m29[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m31[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
     [32mAnd [0m[32muser clicks on Enter Data in the event "[0m[32m[1mScreening[0m[32m"[0m           [90m# OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)[0m
     [32mAnd [0m[32muser searches for the form "[0m[32m[1mFORM[0m[32m" and opens it[0m               [90m# OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mName:Lokesh[0m[32m"[0m                     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mAge:24[0m[32m"[0m                          [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
-    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mSex:Male[0m[32m"[0m                        [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
+    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mSex:1[0m[32m"[0m                           [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mStatus:Single[0m[32m"[0m                   [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by sign:Present[0m[32m"[0m         [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
-    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:29-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
+    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:31-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser clicks on Save button[0m                                   [90m# OC_CRFForm_StepDefinition.user_clicks_on_Save_button()[0m
 [34mFinished scenario[0m
 
@@ -120,18 +120,18 @@ Feature: Validating functionalities of OpenClinic
   Scenario Outline: Fill the "Form" form for the event               [90m# featurefile/OpenClinic.feature:73[0m
     [32mGiven [0m[32muser logged into application[0m                               [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
-    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m29[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m31[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
     [32mAnd [0m[32muser clicks on Enter Data in the event "[0m[32m[1mVisit 1[0m[32m"[0m             [90m# OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)[0m
     [32mAnd [0m[32muser searches for the form "[0m[32m[1mFORM[0m[32m" and opens it[0m               [90m# OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mName:Sai[0m[32m"[0m                        [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mAge:25[0m[32m"[0m                          [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
-    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mSex:Female[0m[32m"[0m                      [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
+    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mSex:2[0m[32m"[0m                           [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mStatus:Married[0m[32m"[0m                  [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by sign:Present[0m[32m"[0m         [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
-    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:29-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
+    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:31-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser clicks on Save button[0m                                   [90m# OC_CRFForm_StepDefinition.user_clicks_on_Save_button()[0m
 
-  @wf
+  @wf @test
   Scenario Outline: Fill the "DoctorPrescription" form for the event               [90m# featurefile/OpenClinic.feature:76[0m
     [36mGiven [0m[36muser logged into application[0m
     [36mAnd [0m[36muser clicked on "<TabName>" tab[0m
@@ -150,11 +150,11 @@ Feature: Validating functionalities of OpenClinic
     Examples: 
 [34mFinished scenario[0m
 
-  @wf
+  @test @wf
   Scenario Outline: Fill the "DoctorPrescription" form for the event [90m# featurefile/OpenClinic.feature:93[0m
     [32mGiven [0m[32muser logged into application[0m                               [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
     [32mAnd [0m[32muser clicked on "[0m[32m[1mSubject Matrix[0m[32m" tab[0m                         [90m# OC_Add_Subject_StepDefinition.user_clicked_on_tab(String)[0m
-    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m29[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
+    [32mAnd [0m[32muser searches for the subjectID "[0m[32m[1m31[0m[32m" in subject matrix table[0m [90m# OC_SubjectMatrix_StepDefinition.user_searches_for_the_subjectID_in_subject_matrix_table(String)[0m
     [32mAnd [0m[32muser clicks on Enter Data in the event "[0m[32m[1mVisit 1[0m[32m"[0m             [90m# OC_SubjectMatrix_StepDefinition.user_clicks_on_Enter_Data_in_the_event(String)[0m
     [32mAnd [0m[32muser searches for the form "[0m[32m[1mDoctorPrescription[0m[32m" and opens it[0m [90m# OC_EnterDataForCRGs_StepDefinition.user_searches_for_the_form_and_opens_it(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mPatient Name:Sai[0m[32m"[0m                [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
@@ -162,11 +162,11 @@ Feature: Validating functionalities of OpenClinic
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mDisease:Fever[0m[32m"[0m                   [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mTablets:Chrosine[0m[32m"[0m                [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by sign:Present[0m[32m"[0m         [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
-    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:29-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
+    [32mAnd [0m[32muser inputs the form field "[0m[32m[1mChecked by date:31-Jan-2018[0m[32m"[0m     [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser inputs the form field "[0m[32m[1mDoctor Name:Yuvaraj[0m[32m"[0m             [90m# OC_CRFForm_StepDefinition.user_inputs_the_form_field(String)[0m
     [32mAnd [0m[32muser clicks on Save button[0m                                   [90m# OC_CRFForm_StepDefinition.user_clicks_on_Save_button()[0m
 
-  @login @wf
+  @login @wf @test
   Scenario Outline: Create and view a dataset                             [90m# featurefile/OpenClinic.feature:96[0m
     [36mGiven [0m[36muser logged into application[0m
     [36mAnd [0m[36muser clicks on "<link>" in tasks list[0m
@@ -180,13 +180,13 @@ Feature: Validating functionalities of OpenClinic
     Examples: 
 [34mFinished scenario[0m
 
-  @login @wf
-  Scenario Outline: Create and view a dataset                                  [90m# featurefile/OpenClinic.feature:108[0m
-    [32mGiven [0m[32muser logged into application[0m                                         [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
-    [32mAnd [0m[32muser clicks on "[0m[32m[1mCreate Dataset[0m[32m" in tasks list[0m                          [90m# OC_DataSet_StepDefinition.user_clicks_on_in_tasks_list(String)[0m
-    [32mAnd [0m[32muser clicks on Procced to create dataset link[0m                          [90m# OC_DataSet_StepDefinition.user_clicks_on_Procced_to_create_dataset_link()[0m
-    [32mAnd [0m[32muser clicks on Select All items in study link[0m                          [90m# OC_DataSet_StepDefinition.user_clicks_on_Select_All_items_in_study_link()[0m
-    [32mAnd [0m[32muser clicks on Save and define scope button[0m                            [90m# OC_DataSet_StepDefinition.user_clicks_on_Save_and_define_scope_button()[0m
-    [32mAnd [0m[32muser clicks on Continue button in Define Temporal Scope page[0m           [90m# OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Define_Temporal_Scope_page()[0m
-    [32mAnd [0m[32muser enters Name as "[0m[32m[1mReportOnJan29[0m[32m" and description as "[0m[32m[1mReportOnJan29[0m[32m"[0m [90m# OC_DataSet_StepDefinition.user_enters_Name_as_and_description_as(String,String)[0m
-    [32mAnd [0m[32muser clicks on Continue button in Specify Dataset Properties page[0m      [90m# OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Specify_Dataset_Properties_page()[0m
+  @login @test @wf
+  Scenario Outline: Create and view a dataset                                      [90m# featurefile/OpenClinic.feature:108[0m
+    [32mGiven [0m[32muser logged into application[0m                                             [90m# OC_Add_Subject_StepDefinition.user_logged_into_application()[0m
+    [32mAnd [0m[32muser clicks on "[0m[32m[1mCreate Dataset[0m[32m" in tasks list[0m                              [90m# OC_DataSet_StepDefinition.user_clicks_on_in_tasks_list(String)[0m
+    [32mAnd [0m[32muser clicks on Procced to create dataset link[0m                              [90m# OC_DataSet_StepDefinition.user_clicks_on_Procced_to_create_dataset_link()[0m
+    [32mAnd [0m[32muser clicks on Select All items in study link[0m                              [90m# OC_DataSet_StepDefinition.user_clicks_on_Select_All_items_in_study_link()[0m
+    [32mAnd [0m[32muser clicks on Save and define scope button[0m                                [90m# OC_DataSet_StepDefinition.user_clicks_on_Save_and_define_scope_button()[0m
+    [32mAnd [0m[32muser clicks on Continue button in Define Temporal Scope page[0m               [90m# OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Define_Temporal_Scope_page()[0m
+    [32mAnd [0m[32muser enters Name as "[0m[32m[1mReportOnJan31_2[0m[32m" and description as "[0m[32m[1mReportOnJan31_2[0m[32m"[0m [90m# OC_DataSet_StepDefinition.user_enters_Name_as_and_description_as(String,String)[0m
+    [32mAnd [0m[32muser clicks on Continue button in Specify Dataset Properties page[0m          [90m# OC_DataSet_StepDefinition.user_clicks_on_Continue_button_in_Specify_Dataset_Properties_page()[0m

@@ -11,6 +11,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.Status;
+import com.gargoylesoftware.htmlunit.WebConsole.Logger;
+
 import cucumber.framework.helper.DropDownHelper;
 import cucumber.framework.utility.ExcelUtility;
 import cucumber.framework.utility.WebDriverUtility;
@@ -61,7 +64,7 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 	
 	static String tempFormName="";
 	
-	public static void initializeObjects()
+	public static void initializeObjects() throws Exception
 	{
 		try {
 			List<WebElement> list=getWebElements(subjectEvents_Table);
@@ -87,11 +90,12 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			
 		} catch (Exception e) {
 			// TODO: handle exception
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 	}
 	
-	public static void openForm(String formName)
+	public static void openForm(String formName) throws Exception
 	{
 		try {
 			eventTableList=getWebElements(subjectEvents_Table);
@@ -111,6 +115,7 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 					if(CRFName.getText().equalsIgnoreCase(formName))
 						{
 							ActionEnterData.click();
+							logger.log(Status.PASS, "Form opened :"+formName);
 							break;
 						}	
 				}
@@ -121,13 +126,14 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 		
 	}
 	
 	
-	public static void initializeRowElements(int rowNumber)
+	public static void initializeRowElements(int rowNumber) throws Exception
 	{
 		String xpath="xpath://*[@id='subjectEvents']/table/tbody/tr/td//div/table/tbody/tr[2]/td/table/tbody/tr["+rowNumber+"]/";
 		int count=1;
@@ -169,12 +175,13 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 	}
 
 	
-	public static void displayRowData()
+	public static void displayRowData() throws Exception
 	{
 		try {
 			initializeRowElements(2);
@@ -187,11 +194,12 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 	}
 	
-	public static void initializeCRFChildElements()
+	public static void initializeCRFChildElements() throws Exception
 	{
 		String xpath="table/tbody/tr/td";
 		try {
@@ -205,12 +213,13 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			System.out.println(CRFStatus.findElement(By.tagName("img")).getAttribute("title"));*/
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 	}
 	
 	
-	public static void initalizeActionChildElements()
+	public static void initalizeActionChildElements() throws Exception
 	{
 		try {
 			String xpath="table/tbody/tr/td";
@@ -220,7 +229,8 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			ActionPrintDefault=CRFActions.findElement(By.xpath(xpath+"[1]"));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
+			throw e;
 		}
 	}
 	
@@ -230,7 +240,7 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			ActionEnterData.click();
 		} catch (Exception e) {
 			// TODO: handle exception
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
 			throw e;
 		}
 	}
@@ -239,7 +249,7 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 	{
 		try {
 			ExcelUtility.setExcelFile("D:\\OpenClinica\\Cucumber\\CRF_Design_Template_v3.9.xls", "Items");
-			Map<String, String> map=ExcelUtility.getCRFFormFieldList("Form");
+			Map<String, String> map=ExcelUtility.getCRFFormFieldList(formName);
 			int index=1;
 			System.out.println(map);
 			for(Map.Entry<String, String> entry:map.entrySet())
@@ -250,13 +260,13 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.log(Status.FAIL, e);
 			throw e;
 		}
 		
 	}
 	
-	public static void enterFormField(String fieldNameAndValue)
+	public static void enterFormField(String fieldNameAndValue) throws Exception
 	{
 		String[] args=fieldNameAndValue.split(":");
 		String userFieldName=args[0];
@@ -289,54 +299,66 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 						break;
 					case "single-select":
 						selectDropDownField(index, userFieldValue);
-					default:
 						break;
+					case "textarea":
+						enterTextFormField(index, userFieldValue);
+						break;
+	
+					default:
+						System.out.println("a");
+						throw new Exception("Did not found the input field to enter data");
 					}
 				}
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			logger.log(Status.FAIL, e);
 			throw e;
 		}
 		
 	}
 	
-	public static void enterTextFormField(int index,String userFieldValue)
+	public static void enterTextFormField(int index,String userFieldValue) throws Exception
 	{
 		try {
 			System.out.println("as");
 			driver.findElement(By.id("input"+index)).clear();
 			driver.findElement(By.id("input"+index)).sendKeys(userFieldValue);;
+			logger.log(Status.PASS, "Enters the text box with value "+userFieldValue);
 		} catch (Exception e) {
 			// TODO: handle exception
 			throw e;
 		}
 	}
 	
-	public static void selectDropDownField(int index,String userFieldValue)
+	public static void selectDropDownField(int index,String userFieldValue) throws Exception
 	{
 		try {
 			WebElement ele=driver.findElement(By.id("input"+index));
 			Select select=new Select(ele);
 			select.selectByVisibleText(userFieldValue);
+			logger.log(Status.PASS, "Selects the dropdown with value "+userFieldValue);
 		} catch (Exception e) {
 			// TODO: handle exception
+			throw e;
 		}
 	}
 	
-	public static void clickRadioButton(int index,String userFieldValue)
+	public static void clickRadioButton(int index,String userFieldValue) throws Exception
 	{
 		boolean flag=false;
 		System.out.println(index);
 		try {
 			List<WebElement> list=driver.findElements(By.id("input"+index));
+			System.out.println(list.size());
 			
 			for (WebElement webElement : list) {
-				System.out.println(webElement.getText());
+				System.out.println(webElement.getAttribute("value").trim());
 				if(webElement.getAttribute("value").trim().equalsIgnoreCase(userFieldValue))
 				{
 					flag=true;
 					webElement.click();
+					logger.log(Status.PASS, "Clicks the radio button with value "+userFieldValue);
 				}
 			}
 			if(flag==false)
@@ -345,7 +367,7 @@ public class OC_ViewSubject_PageObject extends WebDriverUtility{
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw e;
 		}
 	}
 	
