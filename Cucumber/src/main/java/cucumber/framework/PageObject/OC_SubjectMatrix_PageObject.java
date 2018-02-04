@@ -184,6 +184,7 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 	public static void scheduleEvent(String eventName) throws Exception {
 		try {
 			int count = 1;
+			rows = getWebElements(subjectMatrixRows_table);
 			for (WebElement webElement : rows) {
 				List<WebElement> cols = webElement.findElements(By.tagName("td"));
 				// System.out.println(cols);
@@ -200,6 +201,7 @@ public class OC_SubjectMatrix_PageObject extends WebDriverUtility {
 						list.get(0).click();
 						logger.log(Status.PASS, "Scheduled Event "+eventName+" with Subject ID "+subjectID_temp);
 						logger.addScreenCaptureFromPath(WebDriverUtility.takeScreenshot("Scheduled Event "+eventName+" with Subject ID "+subjectID_temp));
+						break;
 					} else {
 						throw new Exception("Already Scheduled");
 						//driver.findElement(By.linkText("View/Enter Data")).click();

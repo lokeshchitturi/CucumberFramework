@@ -16,6 +16,7 @@ public class OC_SubjectMatrix_StepDefinition {
 	@Given("^user selects the startDate/Time as \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
 	public void user_selects_the_startDate_Time_as(String arg1, String arg2, String arg3) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		Thread.sleep(3000);
 	    OC_SubjectMatrix_PageObject.enterStartDate(arg1);
 	    OC_SubjectMatrix_PageObject.selectStartHour(arg2);
 	    OC_SubjectMatrix_PageObject.selectStartMinute(arg3);

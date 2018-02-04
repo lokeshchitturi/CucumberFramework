@@ -33,7 +33,8 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
 		<!-- report name -->
@@ -46,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 31, 2018 03:54:05 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 4, 2018 10:42:12 AM</span>
 				</a>
 			</li>
 			<li>
@@ -72,6 +73,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -122,10 +124,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='25%'><span class='strong'>1</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='75%'>3</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -137,10 +139,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>71</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>18</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>6</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -158,14 +160,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Validation</span>
-						<span class='test-time'>Jan 31, 2018 03:54:05 PM</span>
+						<span class='test-time'>Feb 4, 2018 10:42:12 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:05 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:12 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+737ms</span>
+	<span class='label start-time'>Feb 4, 2018 10:42:12 AM</span>
+	<span class='label end-time'>Feb 4, 2018 10:42:24 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+151ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -179,52 +181,52 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:10 PM</td>
+					<td class='timestamp'>10:42:21 AM</td>
 					<td class='step-details'>Succesfully navigated to URL</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:11 PM</td>
+					<td class='timestamp'>10:42:22 AM</td>
 					<td class='step-details'>username and password entered</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:12 PM</td>
+					<td class='timestamp'>10:42:24 AM</td>
 					<td class='step-details'>Clicked on login button</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:12 PM</td>
+					<td class='timestamp'>10:42:24 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:12 PM</td>
+					<td class='timestamp'>10:42:24 AM</td>
 					<td class='step-details'>Login Validation is passed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\homepage__01-31-2018-03-54-10.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\homepage__01-31-2018-03-54-10.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\homepage__01-31-2018-03-54-10.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CredentialsEentered__01-31-2018-03-54-11.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CredentialsEentered__01-31-2018-03-54-11.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CredentialsEentered__01-31-2018-03-54-11.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-12.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-12.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-12.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\homepage__02-04-2018-10-42-21.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\homepage__02-04-2018-10-42-21.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\homepage__02-04-2018-10-42-21.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-22.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-22.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-22.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-24.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-24.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-24.jpg'></li>
 							</ul>
 					</div>
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Adding a subject to the study via link</span>
-						<span class='test-time'>Jan 31, 2018 03:54:13 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Feb 4, 2018 10:42:25 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:13 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:16 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+393ms</span>
+	<span class='label start-time'>Feb 4, 2018 10:42:25 AM</span>
+	<span class='label end-time'>Feb 4, 2018 10:42:29 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+822ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -238,93 +240,152 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:13 PM</td>
+					<td class='timestamp'>10:42:25 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:14 PM</td>
+					<td class='timestamp'>10:42:26 AM</td>
 					<td class='step-details'>Clicked on Subject Matrix</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:14 PM</td>
+					<td class='timestamp'>10:42:26 AM</td>
 					<td class='step-details'>Clicked on add subject link</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:14 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Entered subject id in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Entered person id in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Entered enrolled date in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Selected gender in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Entered dob in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Selected study event in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:15 PM</td>
+					<td class='timestamp'>10:42:27 AM</td>
 					<td class='step-details'>Selected start date in 'Add Subject form'</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:16 PM</td>
+					<td class='timestamp'>10:42:28 AM</td>
 					<td class='step-details'>Clicked on add button in 'Add Subject Form'</td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:16 PM</td>
-					<td class='step-details'>Subject is added sucesfully</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:28 AM</td>
+					<td class='step-details'><pre>java.lang.Exception
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.verifyAddSubject(OC_AddSubject_PageObject.java:218)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_verifies_succesful_Add_subject(OC_Add_Subject_StepDefinition.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</pre></td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:16 PM</td>
-					<td class='step-details'>Adding a subject to the study via link is passed</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:29 AM</td>
+					<td class='step-details'>Adding a subject to the study via link is failed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-13.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-13.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-13.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-14.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-14.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-14.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\FilledAddSubjectForm__01-31-2018-03-54-16.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\FilledAddSubjectForm__01-31-2018-03-54-16.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\FilledAddSubjectForm__01-31-2018-03-54-16.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SucessFulAddedSubject__01-31-2018-03-54-16.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SucessFulAddedSubject__01-31-2018-03-54-16.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SucessFulAddedSubject__01-31-2018-03-54-16.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-25.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-25.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-25.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\ClickedTab__02-04-2018-10-42-26.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\ClickedTab__02-04-2018-10-42-26.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\ClickedTab__02-04-2018-10-42-26.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\FilledAddSubjectForm__02-04-2018-10-42-28.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\FilledAddSubjectForm__02-04-2018-10-42-28.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\FilledAddSubjectForm__02-04-2018-10-42-28.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-28.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-28.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-28.jpg'></li>
 							</ul>
 					</div>
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>Searching subject</span>
-						<span class='test-time'>Jan 31, 2018 03:54:16 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Feb 4, 2018 10:42:29 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:16 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:21 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+946ms</span>
+	<span class='label start-time'>Feb 4, 2018 10:42:29 AM</span>
+	<span class='label end-time'>Feb 4, 2018 10:42:30 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+846ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -338,53 +399,122 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:17 PM</td>
+					<td class='timestamp'>10:42:29 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:17 PM</td>
-					<td class='step-details'>Clicked on Subject Matrix</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:29 AM</td>
+					<td class='step-details'><textarea>org.openqa.selenium.WebDriverException: unknown error: Element <a href="ListStudySubjects">...</a> is not clickable at point (256, 51). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-U77UHNF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir12244_9519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ed6cfeaf227e9d5feaade1e6cb357f21
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.clickLinkOnTab(OC_AddSubject_PageObject.java:70)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_clicked_on_tab(OC_Add_Subject_StepDefinition.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</textarea></td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:18 PM</td>
-					<td class='step-details'>Table cotains some records releated to search</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:21 PM</td>
-					<td class='step-details'>Opned the subject with id 31</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:21 PM</td>
-					<td class='step-details'>Searching subject is passed</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:30 AM</td>
+					<td class='step-details'>Searching subject is failed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-17.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-17.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-17.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-17.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-17.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-17.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-18.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-18.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-18.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Opened Subject31__01-31-2018-03-54-21.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Opened Subject31__01-31-2018-03-54-21.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Opened Subject31__01-31-2018-03-54-21.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-29.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-29.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-29.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-29.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-29.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-29.jpg'></li>
 							</ul>
 					</div>
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>Scheduling the event</span>
-						<span class='test-time'>Jan 31, 2018 03:54:21 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Feb 4, 2018 10:42:30 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:21 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:28 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+214ms</span>
+	<span class='label start-time'>Feb 4, 2018 10:42:30 AM</span>
+	<span class='label end-time'>Feb 4, 2018 10:42:31 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+961ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -398,392 +528,106 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:22 PM</td>
+					<td class='timestamp'>10:42:30 AM</td>
 					<td class='step-details'>Login sucessfull</td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:22 PM</td>
-					<td class='step-details'>Clicked on Subject Matrix</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:30 AM</td>
+					<td class='step-details'><textarea>org.openqa.selenium.WebDriverException: unknown error: Element <a href="ListStudySubjects">...</a> is not clickable at point (256, 51). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-U77UHNF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir12244_9519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ed6cfeaf227e9d5feaade1e6cb357f21
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.clickLinkOnTab(OC_AddSubject_PageObject.java:70)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_clicked_on_tab(OC_Add_Subject_StepDefinition.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</textarea></td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:23 PM</td>
-					<td class='step-details'>Table cotains some records releated to search</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:26 PM</td>
-					<td class='step-details'>Scheduled Event Visit 1 with Subject ID 31</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:28 PM</td>
-					<td class='step-details'>Clicked on proceed to enter data button</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:28 PM</td>
-					<td class='step-details'>Scheduling the event is passed</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>10:42:31 AM</td>
+					<td class='step-details'>Scheduling the event is failed</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-22.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-22.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-22.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-22.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-22.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-22.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-23.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-23.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-23.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Scheduled Event Visit 1 with Subject ID 31__01-31-2018-03-54-26.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Scheduled Event Visit 1 with Subject ID 31__01-31-2018-03-54-26.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Scheduled Event Visit 1 with Subject ID 31__01-31-2018-03-54-26.jpg'></li>
-							</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>Fill the "Form" form for the event</span>
-						<span class='test-time'>Jan 31, 2018 03:54:28 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:28 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:35 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+535ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:28 PM</td>
-					<td class='step-details'>Login sucessfull</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:28 PM</td>
-					<td class='step-details'>Clicked on Subject Matrix</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:29 PM</td>
-					<td class='step-details'>Table cotains some records releated to search</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:33 PM</td>
-					<td class='step-details'>Cliked on Enter Data link in the subject 31</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:33 PM</td>
-					<td class='step-details'>Searched and opens the CRF form</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:34 PM</td>
-					<td class='step-details'>Enters the text box with value Lokesh</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:34 PM</td>
-					<td class='step-details'>Enters the text box with value 24</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:34 PM</td>
-					<td class='step-details'>Clicks the radio button with value 1</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:34 PM</td>
-					<td class='step-details'>Selects the dropdown with value Single</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:34 PM</td>
-					<td class='step-details'>Selects the dropdown with value Present</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:35 PM</td>
-					<td class='step-details'>Enters the text box with value 31-Jan-2018</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:35 PM</td>
-					<td class='step-details'>Clicked on save button</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:35 PM</td>
-					<td class='step-details'>Fill the "Form" form for the event is passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-28.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-28.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-28.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-28.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-28.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-28.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-29.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-29.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-29.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-33.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-33.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-33.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-35.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-35.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-35.jpg'></li>
-							</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>Fill the "Form" form for the event</span>
-						<span class='test-time'>Jan 31, 2018 03:54:35 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:35 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:42 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+688ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:35 PM</td>
-					<td class='step-details'>Login sucessfull</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:36 PM</td>
-					<td class='step-details'>Clicked on Subject Matrix</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:37 PM</td>
-					<td class='step-details'>Table cotains some records releated to search</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:40 PM</td>
-					<td class='step-details'>Cliked on Enter Data link in the subject 31</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:40 PM</td>
-					<td class='step-details'>Searched and opens the CRF form</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Enters the text box with value Sai</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Enters the text box with value 25</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Clicks the radio button with value 2</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Selects the dropdown with value Married</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Selects the dropdown with value Present</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:41 PM</td>
-					<td class='step-details'>Enters the text box with value 31-Jan-2018</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:42 PM</td>
-					<td class='step-details'>Clicked on save button</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:42 PM</td>
-					<td class='step-details'>Fill the "Form" form for the event is passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-35.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-35.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-35.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-36.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-36.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-36.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-37.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-37.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-37.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-40.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-40.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-40.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-41.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-41.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-41.jpg'></li>
-							</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
-					<div class='test-heading'>
-						<span class='test-name'>Fill the "DoctorPrescription" form for the event</span>
-						<span class='test-time'>Jan 31, 2018 03:54:42 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:42 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:50 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+91ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:42 PM</td>
-					<td class='step-details'>Login sucessfull</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:43 PM</td>
-					<td class='step-details'>Clicked on Subject Matrix</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:44 PM</td>
-					<td class='step-details'>Table cotains some records releated to search</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:47 PM</td>
-					<td class='step-details'>Cliked on Enter Data link in the subject 31</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:48 PM</td>
-					<td class='step-details'>Searched and opens the CRF form</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:48 PM</td>
-					<td class='step-details'>Enters the text box with value Sai</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:48 PM</td>
-					<td class='step-details'>Enters the text box with value 28</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:48 PM</td>
-					<td class='step-details'>Enters the text box with value Fever</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:49 PM</td>
-					<td class='step-details'>Enters the text box with value Chrosine</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:49 PM</td>
-					<td class='step-details'>Selects the dropdown with value Present</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:49 PM</td>
-					<td class='step-details'>Enters the text box with value 31-Jan-2018</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:50 PM</td>
-					<td class='step-details'>Enters the text box with value Yuvaraj</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:50 PM</td>
-					<td class='step-details'>Clicked on save button</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:50 PM</td>
-					<td class='step-details'>Fill the "DoctorPrescription" form for the event is passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-42.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-42.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-42.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-43.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-43.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\ClickedTab__01-31-2018-03-54-43.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-44.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-44.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\SearchSubject__01-31-2018-03-54-44.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-48.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-48.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\CRFForm__01-31-2018-03-54-48.jpg'></li>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-50.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-50.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\Filled CRF Form__01-31-2018-03-54-50.jpg'></li>
-							</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
-					<div class='test-heading'>
-						<span class='test-name'>Create and view a dataset</span>
-						<span class='test-time'>Jan 31, 2018 03:54:50 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 31, 2018 03:54:50 PM</span>
-	<span class='label end-time'>Jan 31, 2018 03:54:53 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+957ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:50 PM</td>
-					<td class='step-details'>Login sucessfull</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:54:53 PM</td>
-					<td class='step-details'>Create and view a dataset is passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-50.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-50.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_01-31-2018\VerifiedSucesfullLogin__01-31-2018-03-54-50.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-30.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-30.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\VerifiedSucesfullLogin__02-04-2018-10-42-30.jpg'></li>
+								<li><img data-featherlight='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-30.jpg' width='10%' src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-30.jpg' data-src='D:\OpenClinica\Cucumber\screenshots\_02-04-2018\CredentialsEentered__02-04-2018-10-42-30.jpg'></li>
 							</ul>
 					</div>
 				</li>
@@ -813,6 +657,319 @@
 </div>
 <!-- test view -->
 <!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>java.lang.Exception</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Feb 4, 2018 10:42:25 AM</td>
+                                                        <td class='linked' test-id='2'>Adding a subject to the study via link</td>
+                                                        <td><pre><pre>java.lang.Exception
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.verifyAddSubject(OC_AddSubject_PageObject.java:218)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_verifies_succesful_Add_subject(OC_Add_Subject_StepDefinition.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Feb 4, 2018 10:42:29 AM</td>
+                                                        <td class='linked' test-id='3'>Searching subject</td>
+                                                        <td><pre><textarea>org.openqa.selenium.WebDriverException: unknown error: Element <a href="ListStudySubjects">...</a> is not clickable at point (256, 51). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-U77UHNF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir12244_9519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ed6cfeaf227e9d5feaade1e6cb357f21
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.clickLinkOnTab(OC_AddSubject_PageObject.java:70)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_clicked_on_tab(OC_Add_Subject_StepDefinition.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</textarea></pre></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Feb 4, 2018 10:42:30 AM</td>
+                                                        <td class='linked' test-id='4'>Scheduling the event</td>
+                                                        <td><pre><textarea>org.openqa.selenium.WebDriverException: unknown error: Element <a href="ListStudySubjects">...</a> is not clickable at point (256, 51). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-U77UHNF', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir12244_9519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ed6cfeaf227e9d5feaade1e6cb357f21
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at cucumber.framework.PageObject.OC_AddSubject_PageObject.clickLinkOnTab(OC_AddSubject_PageObject.java:70)
+	at com.cucumber.framework.stepDefinitions.OC_Add_Subject_StepDefinition.user_clicked_on_tab(OC_Add_Subject_StepDefinition.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</textarea></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -822,31 +979,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>71</div>
+					<div class='panel-lead'>24</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 31, 2018 03:54:05 PM</div>
+					<div class='panel-lead'>Feb 4, 2018 10:42:12 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 31, 2018 03:54:53 PM</div>
+			 		<div class='panel-lead'>Feb 4, 2018 10:42:31 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>48,672ms</div>
+					<div class='panel-lead'>18,418ms</div>
 				</div>
 			</div>
 		</div>
@@ -859,22 +1016,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 8,
-				failParent: 0,
+				passParent: 1,
+				failParent: 3,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 3,
 				
-				passChild: 71,
-				failChild: 0,
+				passChild: 18,
+				failChild: 6,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 6,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

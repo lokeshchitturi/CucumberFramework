@@ -2,23 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.cucumber.framework.runner.TestRunner" duration-ms="407" started-at="2017-12-16T09:51:13Z" finished-at="2017-12-16T09:51:14Z">
+  <suite name="Test" duration-ms="2" started-at="2018-02-01T03:00:30Z" finished-at="2018-02-01T03:00:30Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.framework.runner.TestRunner@61dc03ce]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="407" started-at="2017-12-16T09:51:13Z" finished-at="2017-12-16T09:51:14Z">
-      <class name="com.cucumber.framework.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.framework.runner.TestRunner@61dc03ce]" name="setUpClass" is-config="true" duration-ms="275" started-at="2017-12-16T15:21:13Z" finished-at="2017-12-16T15:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.framework.runner.TestRunner@61dc03ce]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2017-12-16T15:21:14Z" finished-at="2017-12-16T15:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.framework.runner.TestRunner -->
+    <test name="Command line test" duration-ms="2" started-at="2018-02-01T03:00:30Z" finished-at="2018-02-01T03:00:30Z">
     </test> <!-- Command line test -->
-  </suite> <!-- com.cucumber.framework.runner.TestRunner -->
+  </suite> <!-- Test -->
 </testng-results>
